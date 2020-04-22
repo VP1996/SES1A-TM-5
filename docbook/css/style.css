@@ -1,4 +1,13 @@
 body {
     background-color: #b3b3b3;
+}
 
-    
+#header {
+    background-color: #80b3ff;
+    text-align: left;
+}
+
+.h1 {
+    font-size: large;
+    text-shadow: darkgray;
+}
