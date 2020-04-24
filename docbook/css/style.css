@@ -1,37 +1,83 @@
-body {
-    background-color: #b3b3b3;
-}
-
-#header {
-    background-color: #80b3ff;
-    text-align: left;
-}
-
-#main {
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Arial;
+    font-size:12px;
+    
     
 }
 
-#content { 
+body {
+    background-image: url("../img/docbook-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
 
 }
+        
+/*logo stuff*/
 
-.title {
-    font-size: 36px;    
-    text-shadow: darkgray;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+.logo {
+    width:125px;
 
-.h1 {
-    font-size: 32px;
-    font-family: Arial, Helvetica, sans-serif;
-}
+        }
+        
+.logo img {
+    width:120px;
+    height:100px;
+        }
+   
+.headerMenu {
+    background-color:rgba(55, 220, 226, 0.678);
+    height:"50px";
+    border-bottom:0px;
+    padding-left: auto;
+    padding-right: auto;
+    width: 100%;
+    
+        }
 
-.h2 {
-    font-size: 24px;
-    font-family: Arial, Helvetica, sans-serif;
-}
+#wrapper {
+    margin-left:10px;
+    margin-right:auto;
+    width:1000px;
+    padding-top:0px;
+    padding-bottom:0px;
+        }
+ 
 
-.text {
-    font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
-}
+
+/* Style the navigation bar */
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+    
+  }
+  
+/* Navbar links */
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+/* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: #000;
+  }
+  
+/* Current/active navbar link */
+  .active {
+    background-color: #4CAF50;
+  }
+  
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+    float: none;
+      display: inline;
+    }
