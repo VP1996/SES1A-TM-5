@@ -2,7 +2,6 @@
     margin:0px;
     padding:0px;
     font-family: Arial;
-    font-size:12px;
     
     
 }
@@ -87,14 +86,23 @@ body {
     
 /* Chat System*/
 
-
   .chatBox {
     position: relative;
-    top: 475px;
-    
-    
-    
-    
+    top: 460px;
+	    
     }
+  
+.h1 {
+  font-weight: bold;
+  font-size: 32px;
+  font-family: 
+}
+
+
+	
+	
+
+
+}
   
   
