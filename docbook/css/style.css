@@ -15,33 +15,45 @@ body {
 
 }
 
-/* Create three unequal columns that floats next to each other */
-.column {
-  float: left;
-  height: 100px;
+/* flexbox */
+
+/*container 1*/
+.container1 {
+  display: flex;
 }
 
-/* Left and right column */
-.column.side {
-  width: 25%;
+.container2 {
+  display: flex;
+  justify-content: center;
 }
 
-/* Middle column */
-.column.middle {;
-  width: 50%;
-  background-color: rgba(255, 255, 255, 0.356);
-  border-radius: 16px;
+/*containers div border 
+.container1 div, .container2 div{
+  border:1px #000000 solid;
+  padding:10px;
+}
+*/
+.box1 {
+  flex: 3;
+  order: 2;
+  color: rgba(138, 138, 138, 0.74);
+  font-size: 24px;
   text-align: center;
-  font-size: 26px;
-  text-decoration: none;
-  display: inline-block;
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.box2 {
+  flex: 1;
+  order: 1;
+}
+
+.box3 {
+  flex: 1;
+  order: 3;
+}
+
+/*container 2 boxes*/
+.container2-box{
+  flex-basis: 27%;  
 }
 
 /* headings */
