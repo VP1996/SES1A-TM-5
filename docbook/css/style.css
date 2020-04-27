@@ -83,6 +83,19 @@ h1 {
 }
 
 */
+
+.loginbutton {
+  width:100%;
+  overflow:hidden;
+  display:inline-block;
+  width:auto;
+	
+}
+.loginbutton :hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+
+}
 .buttonS {
   background-color: rgb(223, 223, 223);
   border-style: solid;
