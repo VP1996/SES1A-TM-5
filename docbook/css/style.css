@@ -96,13 +96,44 @@ h1 {
 .loginbutton {
   width:100%;
   overflow:hidden;
-  display:inline-block;
   width:auto;
+  background-color:whitesmoke;
+  border-color: rgb(0, 75, 75);
+  border-radius: 8px;
+  color: black;
+  padding: 10px 18px;
+  position:absolute;
+  right:150px;
+  top:40px;
+  display:inline-block;
+
 	
 }
 .loginbutton :hover {
 	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
-	background-color:#f6f6f6;
+  background-color:#f6f6f6;
+}
+  
+.registerbutton {
+  width:100%;
+  overflow:hidden;
+  width:auto;
+  background-color:whitesmoke;
+  border-color: rgb(0, 75, 75);
+  border-radius: 8px;
+  color: black;
+  padding: 10px 18px;
+  position:absolute;
+  right:150px;
+  top:40px;
+  display:inline-block;
+  margin-right:80px;
+  
+    
+  }
+.registerbutton :hover {
+  background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+  background-color:#f6f6f6;
 
 }
 .buttonS {
@@ -208,6 +239,7 @@ h1 {
     padding-left: auto;
     padding-right: auto;
     width: 100%;
+    position: relative;
     
         }
 
