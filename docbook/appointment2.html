@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title> DocBook </title>
+        <link rel="stylesheet" type="text/css" href= "./css/style.css" />
+    </header>
+    <body>
+        <div class="headerMenu">
+            <div id="wrapper">
+                <div class="logo">
+                    <a href="appointment1.html">
+                    <img src="./img/docbook-logo.png"/>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="navbar" >
+            
+                <a href="#">Your Profile</a>
+                <a href="#">Our Doctors</a>
+                <a href="#">Online Prescriptions</a>
+                <a href="#">Chat with patient</a>
+                <a>Appointments</a>
+                <a>Sign out</a>
+            
+            
+        </div>
+
+        <div>
+            <br>
+           
+        </div>
+
+                <div >
+                    <h1>Online Appointments</h1>
+                </div>  
+        <div>
+            <br>
+            <br>
+            
+        </div>
+        <div class="container1">
+            <div class="box1" style="flex: 1; background-color: rgba(255, 255, 255, 0.534); text-align: left;">
+                <div class="container2" style="flex-flow: column;">
+                    <br>
+                    <div class="container2-box" style="text-align: center;">
+                        <label for="fname" style="font-size: 18px;" >First Name</label>
+                        <div style="padding-left: 100px; padding-right: 100px;">
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        </div>
+                    </div>
+                    <div class="container2-box" style="text-align: center;">
+                        <label for="lname" style="font-size: 18px;">Last Name</label>
+                        <div style="padding-left: 100px; padding-right: 100px;">
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        </div>
+                    </div>
+                    <div class="container2-box" style="text-align: center;">
+                        <label for="condition" style="font-size: 18px;">Condition of illness</label>
+                        <div style="padding-left: 100px; padding-right: 100px;">
+                        <input type="text" id="condition" name="conditionofillness" placeholder="current condition..">
+                        </div>
+                    </div>
+                    <div class="container2-box" style="text-align: center;">
+                        <label for="time" style="font-size: 18px;">Insert a perferred time for the appointment</label>
+                        <div style="padding-left: 100px; padding-right: 100px;">
+                            <br>
+                            <form action="/action_page.php">
+                                <label for="birthday">Birthday:</label>
+                                <input type="date" id="birthday" name="birthday">
+                                <input type="submit">
+                              </form>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="container2-box" style="text-align: center;">
+                        <label for="file" style="font-size: 18px;">Insert the previous medical histories. leave if not <br></label>
+                        <br>
+                        <div>
+                        <div style="padding-left: 100px;">
+                        <label for="myfile">Select files:</label>
+                        <input type="file" id="myfile" name="myfile" multiple><br><br>
+                        </div>
+                        </div>
+                    </div>
+                    <!--<div class="container2-box" style="text-align: center;">
+                        <label for="">Country</label>
+                            <select id="country" name="country">
+                            <option value="australia">Australia</option>
+                            <option value="canada">Canada</option>
+                            <option value="usa">USA</option>
+                        </select>
+                    </div>-->
+                    <div class="container2-box" style="padding-left: 200px; padding-right: 225px;">
+                        <input type="proceed" value="Proceed to Billing">
+
+                    </div>
+                    <br>
+                </div>
+            </div>
+            <div class="box2">
+
+            </div>
+            <div class="box3">
+
+            </div>
+        <div>
+
+        </div>
+
+        <div class="footer" style="bottom: 0;">
+            
+
+            <div>
+                <p style="font-size: 16px; color: #000; font-family: sans-serif; padding-left: 100px;"> Copyright &copy; 2020 DocBook </p>
+            </div>
+            <br>
+            <div style="padding-left: 100px;">
+                <table id="contact">
+                    <tr>
+                      <th><b style="font-size: 16px;">Contact Us</b></th>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Email</a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Phone</a></td>
+                    </tr>
+                  </table>
+            </div>
+        </div>
+    </body>
+    
+</html>
