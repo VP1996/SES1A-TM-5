@@ -27,6 +27,10 @@ body {
   justify-content: center;
 }
 
+.container3 {
+  display: flex;
+}
+
 /*containers div border 
 .container1 div, .container2 div{
   border:1px #000000 solid;
@@ -54,6 +58,23 @@ body {
 /*container 2 boxes*/
 .container2-box{
   flex-basis: 27%;  
+}
+
+/*container 3 boxes*/
+
+.container3-box1 {
+  flex: 8;
+  order: 1;
+}
+
+.container3-box2 {
+  flex: 1;
+  order: 2;
+}
+
+.container3-box3 {
+  flex: 1;
+  order: 3;
 }
 
 /* input boxes */
@@ -297,9 +318,16 @@ h1 {
     position: relative;
     top: 475px;
     
+  }
+
+  .loginbutton {
+    position:absolute;
     
+  }
+
+  .registerbutton {
+    position: relative;
     
-    
-    }
+  }
   
   }
