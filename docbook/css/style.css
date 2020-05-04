@@ -15,7 +15,6 @@ body {
 
 }
 
-
 /* flexbox */
 
 /*container 1*/
@@ -25,17 +24,21 @@ body {
 
 .container2 {
   display: flex;
+  justify-content: center;
 }
 
-/*containers div border */
+/*containers div border 
 .container1 div, .container2 div{
   border:1px #000000 solid;
   padding:10px;
 }
-
+*/
 .box1 {
-  flex: 2;
+  flex: 3;
   order: 2;
+  color: rgba(138, 138, 138, 0.74);
+  font-size: 24px;
+  text-align: center;
 }
 
 .box2 {
@@ -51,6 +54,42 @@ body {
 /*container 2 boxes*/
 .container2-box{
   flex-basis: 27%;  
+}
+
+/* input boxes */
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=proceed] {
+  text-align: center;
+  font-size: 16px;
+  width: 100%;
+  background-color: rgba(6, 149, 216, 0.5);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 1px #000 solid;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+input[type=proceed]:hover {
+  background-color: rgba(107, 107, 107, 0.781);
+  color: #ccc;
+}
+
+input[type=proceed]:active {
+  background-color: rgba(6, 149, 216, 0.5);
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
 }
 
 /* headings */
@@ -92,50 +131,6 @@ h1 {
 }
 
 */
-
-.loginbutton {
-  width:100%;
-  overflow:hidden;
-  width:auto;
-  background-color:whitesmoke;
-  border-color: rgb(0, 75, 75);
-  border-radius: 8px;
-  color: black;
-  padding: 10px 18px;
-  position:absolute;
-  right:150px;
-  top:40px;
-  display:inline-block;
-
-	
-}
-.loginbutton :hover {
-	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
-  background-color:#f6f6f6;
-}
-  
-.registerbutton {
-  width:100%;
-  overflow:hidden;
-  width:auto;
-  background-color:whitesmoke;
-  border-color: rgb(0, 75, 75);
-  border-radius: 8px;
-  color: black;
-  padding: 10px 18px;
-  position:absolute;
-  right:150px;
-  top:40px;
-  display:inline-block;
-  margin-right:80px;
-  
-    
-  }
-.registerbutton :hover {
-  background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
-  background-color:#f6f6f6;
-
-}
 .buttonS {
   background-color: rgb(223, 223, 223);
   border-style: solid;
@@ -152,7 +147,7 @@ h1 {
 }
 
 .buttonS:hover {
-  background-color: rgb(0, 206, 206);
+  background-color: rgba(6, 149, 216, 0.5);
   color: white;
 }
 
@@ -187,13 +182,12 @@ h1 {
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
-    background-color: #00a7a4;
+    background-color: rgba(8, 173, 250, 0.5);
     height: 150px;
     width: 100%;
     left: 0;
     position: absolute;
 }
-
 
 /* tables */
 
@@ -215,9 +209,8 @@ h1 {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #005c5ac4;
-  font-size: 16px;
-  color: black;
+  background-color: rgba(55, 157, 204, 0.5);
+  color: white;
 }
 
 /*logo stuff*/
@@ -233,13 +226,12 @@ h1 {
         }
    
 .headerMenu {
-    background-color:rgba(55, 220, 226, 0.678);
+    background-color:rgba(8, 173, 250, 0.5);
     height:"50px";
     border-bottom:0px;
     padding-left: auto;
     padding-right: auto;
     width: 100%;
-    position: relative;
     
         }
 
@@ -256,7 +248,7 @@ h1 {
 /* Style the navigation bar */
 .navbar {
     width: 100%;
-    background-color: rgba(110, 110, 110, 0.807);
+    background-color: #555;
     overflow: auto;
     
   }
@@ -281,7 +273,7 @@ h1 {
   
 /* Current/active navbar link */
   .navbar a:active {
-    background-color: rgb(0, 206, 206);
+    background-color: rgba(6, 149, 216, 0.5);
     box-shadow: 0 5px #666;
     transform: translate();
   }
