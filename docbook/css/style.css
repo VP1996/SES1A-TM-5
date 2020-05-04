@@ -72,7 +72,7 @@ input[type=proceed] {
   text-align: center;
   font-size: 16px;
   width: 100%;
-  background-color: rgb(0, 206, 206);
+  background-color: rgba(6, 149, 216, 0.5);
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -87,7 +87,7 @@ input[type=proceed]:hover {
 }
 
 input[type=proceed]:active {
-  background-color: rgb(0, 206, 206);
+  background-color: rgba(6, 149, 216, 0.5);
   box-shadow: 0 2px #666;
   transform: translateY(4px);
 }
@@ -147,7 +147,7 @@ h1 {
 }
 
 .buttonS:hover {
-  background-color: rgb(0, 206, 206);
+  background-color: rgba(6, 149, 216, 0.5);
   color: white;
 }
 
@@ -182,7 +182,7 @@ h1 {
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
-    background-color: #00a7a4;
+    background-color: rgba(8, 173, 250, 0.5);
     height: 150px;
     width: 100%;
     left: 0;
@@ -209,7 +209,7 @@ h1 {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #004443;
+  background-color: rgba(55, 157, 204, 0.5);
   color: white;
 }
 
@@ -273,7 +273,7 @@ h1 {
   
 /* Current/active navbar link */
   .navbar a:active {
-    background-color: rgb(0, 206, 206);
+    background-color: rgba(6, 149, 216, 0.5);
     box-shadow: 0 5px #666;
     transform: translate();
   }
