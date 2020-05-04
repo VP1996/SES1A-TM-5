@@ -256,7 +256,7 @@ h1 {
 /* Style the navigation bar */
 .navbar {
     width: 100%;
-    background-color: #555;
+    background-color: rgba(110, 110, 110, 0.807);
     overflow: auto;
     
   }
