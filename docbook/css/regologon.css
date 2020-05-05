@@ -19,7 +19,7 @@
     background-position: center;
     background-size: cover;
     position: absolute;
-    overflow: hidden;
+  
     
 }
 
@@ -63,7 +63,7 @@ margin: 50px auto;
 position:relative;
 box-shadow:0 0 20px 9px rgb(6, 123, 177);
 border-radius: 30px;
-overflow: hidden;
+
 }
 
 
@@ -131,8 +131,8 @@ border-radius: 30px;
 
 #Register{
 
-left:60%S;
-top: 30%S;
+left:37%;
+top: 30%;
 
 
     
@@ -141,7 +141,7 @@ top: 30%S;
 #Login{
 left: 70%;
 top: 30%;
-
+overflow: hidden;
 
 
 }
