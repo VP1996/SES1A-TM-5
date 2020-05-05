@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+
+
+
+}
+
+
+
+
+.container{
+
+    height: 100%;
+    Width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0,0,0,0.4)), url(Wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    overflow: hidden;
+    
+}
+
+.form{
+
+width: 500px;
+height: 630px;
+position: relative;
+margin: 6% auto;
+background: #fff;
+padding: 5px;
+overflow: hidden;
+
+
+}
+.logo {
+
+
+width: 100%;
+height: 60px;
+align-self: center;
+background-color:  rgb(6, 123, 177);
+
+}
+.logo img{
+
+    width: 110px;
+    height: 70px;
+
+    align-self: center;
+    left:50%;
+    ;
+
+}
+
+.box{
+
+width: 220px;
+margin: 50px auto;
+position:relative;
+box-shadow:0 0 20px 9px rgb(6, 123, 177);
+border-radius: 30px;
+
+}
+
+
+.toggle-btn{
+
+    padding: 10px 30px;
+    cursor:pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    border-radius: 30px;
+    transition: 0.5s;;
+    width: 120px;
+    height: 100%;
+    background: linear-gradient( to right, rgb(6, 161, 223), rgb(77, 136, 224));
+    
+    
+    }
+
+    .input-group{
+        top: 300px;
+        left: 560px;
+        position: absolute;
+        width: 400px;
+        transition: 0.5s;
+
+    }
+
+   .input-field{
+
+            width: 100%;
+            padding:20px 0;
+            margin: 5px 0;
+            border-left: 0;
+            border-top: 0;
+            border-bottom: 1px;
+            border-right:0 solid #999;
+            outline: rgb(43, 38, 38) ;
+            background: rgb(240, 243, 245);
+
+   }
+
+.submit-btn{
+
+width: 85%;
+padding: 10px 30px;
+cursor: pointer;
+display: block;
+margin: auto;
+background: linear-gradient( to right, rgb(6, 161, 223), rgb(77, 136, 224));
+border: 0;
+outline: none;
+border-radius: 30px;
+
+}
+
+
+
+#Register{
+
+left:560px;
+top: 230px;
+
+    
+}
+
+#Login{
+left: 1100px;
+top: 230px;
+
+
+}
+
+
+
