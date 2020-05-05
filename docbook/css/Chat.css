@@ -4,30 +4,36 @@
 .chatBox {
 position: relative;
 top: 435px;
-right: 60px;
+right: 80px;
 }
 
- .sendBtn { 
-	position: relative; 
-	 top: 415px; 
-	 left: 330px; 
-	
- } 
-
-
-
-.myfile {
-		position: relative;
-	top: 415px;
-	right: -400px;
-	background-picture: url ('./img/attachBtn.png');
+.sendBtn {
+	position: relative;
+	top: 433px;
+	left: 175px;
 	
 }
 
+.fileBtn {
+	
+	position: relative;
+	top: 435px;
+	right: 70px;
+	
+}
 	
 .picBtn {
 position: relative;
 top: 435px;
 right: 60px;	
+	
+}
+
+.myfile {
+	
+	position: relative;
+	top: 412px;
+	left: 330px;
+	
 	
 }
