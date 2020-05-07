@@ -27,18 +27,37 @@ body {
   justify-content: center;
 }
 
+.container3 {
+  display: flex;
+}
+
+.container4 {
+  display:flex;
+  flex-direction: column;
+}
+
 /*containers div border 
 .container1 div, .container2 div{
   border:1px #000000 solid;
   padding:10px;
 }
 */
+
+.container4 div{
+  border:1px black solid;
+  padding:10px;
+  margin:20px;
+
+}
+
+
 .box1 {
   flex: 3;
   order: 2;
-  color: rgba(138, 138, 138, 0.74);
+  color: rgba(2, 2, 2, 0.74);
   font-size: 24px;
   text-align: center;
+  
 }
 
 .box2 {
@@ -55,6 +74,41 @@ body {
 .container2-box{
   flex-basis: 27%;  
 }
+
+/*container 3 boxes*/
+
+.container3-box1 {
+  flex: 8;
+  order: 1;
+}
+
+.container3-box2 {
+  flex: 1;
+  order: 2;
+}
+
+.container3-box3 {
+  flex: 1;
+  order: 3;
+}
+
+/*container 4 boxes*/
+
+.container4-box1 {
+  flex: 1;
+  order: 1;
+}
+
+.container4-box2 {
+  flex: 1;
+  order: 2;
+}
+
+.container4-box3 {
+  flex: 1;
+  order: 3;
+}
+
 
 /* input boxes */
 
@@ -177,6 +231,37 @@ h1 {
   right: 0;
 }
 
+/*loginandrego*/
+
+.loginbutton {
+  background-color: #bbb;
+  padding: .5em;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 6px;
+  color: #fff;
+  font-family: 'Oswald';
+  font-size: 20px;
+  text-decoration: none;
+  border: none;
+}
+.loginbutton:hover {
+border: none;
+background: orange;
+box-shadow: 0px 0px 1px #777;
+  }
+
+.registerbutton {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  
+}
+
 /* footer */
 
 .footer {
@@ -278,13 +363,7 @@ h1 {
     box-shadow: 0 5px #666;
     transform: translate();
   }
-  
-/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
-  @media screen and (max-width: 500px) {
-    .navbar a {
-    float: none;
-      display: inline;
-    }
+
 
 /* float*/
     .column.side, .column.middle {
@@ -298,9 +377,107 @@ h1 {
     position: relative;
     top: 475px;
     
-    
-    
-    
-    }
-  
+  }
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  flex: 4;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+  float: none;
+    display: inline;
   }
