@@ -1,17 +1,17 @@
 *{
-    margin:0px;
-    padding:0px;
-    font-family: Arial;
-    font-size:12px;
-    
-    
+  margin:0px;
+  padding:0px;
+  font-family: Arial;
+  font-size:12px;
+  
+  
 }
 
 body {
-    background-image: url("../img/docbook-bg.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;  
-    background-size: cover;
+  background-image: url("../img/docbook-bg1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
 
 }
 
@@ -19,12 +19,12 @@ body {
 
 /*container 1*/
 .container1 {
-  display: flex;
+display: flex;
 }
 
 .container2 {
-  display: flex;
-  justify-content: center;
+display: flex;
+justify-content: center;
 }
 
 .container3 {
@@ -40,6 +40,17 @@ body {
 .container1 div, .container2 div{
   border:1px #000000 solid;
   padding:10px;
+}
+
+.container4{
+display: flex;
+justify-content: left;
+
+}
+/*
+.container1 div, .container2, .container3, .container4 div{
+border:1px #000000 solid;
+padding:10px;
 }
 */
 
@@ -61,18 +72,18 @@ body {
 }
 
 .box2 {
-  flex: 1;
-  order: 1;
+flex: 1;
+order: 1;
 }
 
 .box3 {
-  flex: 1;
-  order: 3;
+flex: 1;
+order: 3;
 }
 
 /*container 2 boxes*/
 .container2-box{
-  flex-basis: 27%;  
+flex-basis: 27%;  
 }
 
 /*container 3 boxes*/
@@ -113,122 +124,135 @@ body {
 /* input boxes */
 
 input[type=text], select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  color: #000;
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+color: #000;
 }
 
-input[type=proceed] {
-  text-align: center;
-  font-size: 16px;
-  width: 100%;
-  background-color: rgba(6, 149, 216, 0.5);
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: 1px #000 solid;
-  border-radius: 8px;
-  cursor: pointer;
+input[type=submit] {
+text-align: center;
+font-size: 16px;
+width: 100%;
+background-color: rgba(6, 149, 216, 0.5);
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: 1px #000 solid;
+border-radius: 8px;
+cursor: pointer;
 }
 
-input[type=proceed]:hover {
-  background-color: rgba(107, 107, 107, 0.781);
-  color: #ccc;
+input[type=submit]:hover {
+background-color: rgba(107, 107, 107, 0.781);
+color: #ccc;
 }
 
-input[type=proceed]:active {
-  background-color: rgba(6, 149, 216, 0.5);
-  box-shadow: 0 2px #666;
-  transform: translateY(4px);
+input[type=submit]:active {
+background-color: rgba(6, 149, 216, 0.5);
+box-shadow: 0 2px #666;
+transform: translateY(4px);
 }
 
 /* headings */
 
 h1 {
-  font-size: 36px;
-  text-align: center;
+font-size: 36px;
+text-align: center;
 
 }
 
+/* line spacing*/
+
+p.normal {
+line-height: 1.5;
+color: #000;
+font-size: 14px;
+}
+
+b.big {
+line-height: 1.5;
+color: #000;
+font-size: 16px;
+}
 /* button styles */
 /*
 .button {
-  
-  background-color: rgb(0, 206, 206);
-  border-style: double;
-  border-color: rgb(0, 75, 75);
-  border-radius: 8px;
-  color: black;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  margin-right:50px;
+
+background-color: rgb(0, 206, 206);
+border-style: double;
+border-color: rgb(0, 75, 75);
+border-radius: 8px;
+color: black;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+margin-right:50px;
 }
 
 .button:hover {
-  background-color: rgb(0, 75, 75);
-  color: white;
+background-color: rgb(0, 75, 75);
+color: white;
 }
 
 .button:active {
-  background-color: rgb(0, 206, 206);
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+background-color: rgb(0, 206, 206);
+box-shadow: 0 5px #666;
+transform: translateY(4px);
 }
 
 */
 .buttonS {
-  background-color: rgb(223, 223, 223);
-  border-style: solid;
-  border-color:black;
-  border-radius: 32px;
-  color: black;
-  padding: 20px;
-  text-align: center;
-  display: inline-block;
-  margin: 4px 2px;
-  cursor: pointer;
-  width: 250px;
-  transition: all 0.5s;
+background-color: rgb(223, 223, 223);
+border-style: solid;
+border-color:black;
+border-radius: 32px;
+color: black;
+padding: 20px;
+text-align: center;
+display: inline-block;
+margin: 4px 2px;
+cursor: pointer;
+width: 250px;
+transition: all 0.5s;
 }
 
 .buttonS:hover {
-  background-color: rgba(6, 149, 216, 0.5);
-  color: white;
+background-color: rgba(6, 150, 216, 0.788);
+color: white;
 }
 
 .buttonS span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
+cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.5s;
 }
 
 .buttonS span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
+content: '\00bb';
+position: absolute;
+opacity: 0;
+top: 0;
+right: -20px;
+transition: 0.5s;
 }
 
 .buttonS:hover span {
-  padding-right: 25px;
+padding-right: 25px;
 }
 
 .buttonS:hover span:after {
-  opacity: 1;
-  right: 0;
+opacity: 1;
+right: 0;
 }
 
 /*loginandrego*/
@@ -265,26 +289,26 @@ box-shadow: 0px 0px 1px #777;
 /* footer */
 
 .footer {
-    text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
-    background-color: rgba(8, 173, 250, 0.5);
-    height: 150px;
-    width: 100%;
-    left: 0;
-    position: absolute;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  background-color: rgba(6, 128, 184, 0.753);
+  height: 150px;
+  width: 100%;
+  left: 0;
+  position: absolute;
 }
 
 /* tables */
 
 #contact {
-  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+border-collapse: collapse;
 }
 
 #contact td, #contact th {
-  border: 1px solid rgb(0, 0, 0);
-  padding: 4px;
+border: 1px solid rgb(0, 0, 0);
+padding: 4px;
 }
 
 #contact tr:nth-child(even){background-color: rgba(221, 221, 221, 0.514);}
@@ -292,84 +316,83 @@ box-shadow: 0px 0px 1px #777;
 #contact tr:hover {background-color: #ddd;}
 
 #contact th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: rgba(55, 157, 204, 0.5);
-  color: white;
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: left;
+background-color: rgba(55, 157, 204, 0.5);
+color: white;
 }
 
 /*logo stuff*/
 
 .logo {
-    width:125px;
+  width:125px;
 
-        }
-        
+      }
+      
 .logo img {
-    width:120px;
-    height:100px;
-        }
-   
+  width:120px;
+  height:100px;
+      }
+ 
 .headerMenu {
-    background-color:rgba(8, 173, 250, 0.5);
-    height:"50px";
-    border-bottom:0px;
-    padding-left: auto;
-    padding-right: auto;
-    width: 100%;
-    
-        }
+  background-color:rgba(6, 128, 184, 0.753);
+  height:"50px";
+  border-bottom:0px;
+  padding-left: auto;
+  padding-right: auto;
+  width: 100%;
+  
+      }
 
 #wrapper {
-    margin-left:10px;
-    margin-right:auto;
-    width:1000px;
-    padding-top:0px;
-    padding-bottom:0px;
-        }
- 
+  margin-left:10px;
+  margin-right:auto;
+  width:1000px;
+  padding-top:0px;
+  padding-bottom:0px;
+      }
+
 
 
 /* Style the navigation bar */
 .navbar {
-    width: 100%;
-    background-color: #555;
-    overflow: auto;
-    
-  }
+  width: 100%;
+  background-color: rgba(53, 52, 52, 0.719);
+  overflow: auto;
   
-/* Navbar links */
-  .navbar a {
-    float: left;
-    text-align: center;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: white;
-    text-decoration: none;
-    font-size: 15px;
-  }
-  
-/* Navbar links on mouse-over */
-  .navbar a:hover {
-    background-color: #000;
-  }
-  
-/* Current/active navbar link */
-  .navbar a:active {
-    background-color: rgba(6, 149, 216, 0.5);
-    box-shadow: 0 5px #666;
-    transform: translate();
-  }
+}
 
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: rgba(0, 0, 0, 0.658);
+}
+
+/* Current/active navbar link */
+.navbar a:active {
+  background-color: rgba(6, 149, 216, 0.5);
+  box-shadow: 0 5px #666;
+  transform: translate();
+}
 
 /* float*/
-    .column.side, .column.middle {
-     width: 100%;
-    }
-    
+  .column.side, .column.middle {
+   width: 100%;
+  }
+  
 /* Chat System*/
 
 

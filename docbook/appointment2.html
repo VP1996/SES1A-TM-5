@@ -6,11 +6,23 @@
     </header>
     <body>
         <div class="headerMenu">
-            <div id="wrapper">
-                <div class="logo">
-                    <a href="appointment1.html">
-                    <img src="./img/docbook-logo.png"/>
-                    </a>
+            <div class="container2">
+                <div class="container2-box" style="flex-basis: 50%;">
+                    <div id="wrapper">
+                        <div class="logo">
+                            <a href="index.html">
+                            <img src="./img/docbook-logo.png"/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container2-box" style="flex-basis: 50%;">
+                    <div style="text-align: right; padding-right: 10px;">
+                        <br>
+                        <br>
+                        <br>
+                        <button class="loginbutton">Login/Register</button>
+                    </div>  
                 </div>
             </div>
         </div>
@@ -33,44 +45,42 @@
         </div>
 
                 <div >
-                    <h1>Online Appointments</h1>
+                    <h1>Booking Appointment</h1>
                 </div>  
         <div>
             <br>
             <br>
             
         </div>
+        <form action="appointment3.html">
         <div class="container1">
-            <div class="box1" style="flex: 1; background-color: rgba(255, 255, 255, 0.808); text-align: left;">
+            <div class="box1" style="flex: 1; background-color: rgba(209, 209, 209, 0.856); text-align: left; border-radius: 4px;">
                 <div class="container2" style="flex-flow: column;">
                     <br>
                     <div class="container2-box" style="text-align: center;">
                         <label for="fname" style="font-size: 18px; color: #000;" >First Name</label>
                         <div style="padding-left: 100px; padding-right: 100px;">
-                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
                         </div>
                     </div>
                     <div class="container2-box" style="text-align: center;">
                         <label for="lname" style="font-size: 18px; color: #000;">Last Name</label>
                         <div style="padding-left: 100px; padding-right: 100px;">
-                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
                         </div>
                     </div>
                     <div class="container2-box" style="text-align: center;">
                         <label for="condition" style="font-size: 18px; color: #000;">Condition of illness</label>
                         <div style="padding-left: 100px; padding-right: 100px;">
-                        <input type="text" id="condition" name="conditionofillness" placeholder="current condition..">
+                        <input type="text" id="condition" name="conditionofillness" placeholder="current condition.." required>
                         </div>
                     </div>
                     <div class="container2-box" style="text-align: center;">
                         <label for="time" style="font-size: 18px; color: #000;">Insert a perferred date for the appointment</label>
                         <div style="padding-left: 100px; padding-right: 100px;">
                             <br>
-                            <form action="/action_page.php">
                                 <label for="time" style=" color: #000;">Date:</label>
-                                <input type="date" id="time" name="time">
-                                <input type="submit">
-                              </form>
+                                <input type="date" id="time" name="time" required>
                         </div>
                     </div>
                     <br>
@@ -84,17 +94,8 @@
                         </div>
                         </div>
                     </div>
-                    <!--<div class="container2-box" style="text-align: center;">
-                        <label for="">Country</label>
-                            <select id="country" name="country">
-                            <option value="australia">Australia</option>
-                            <option value="canada">Canada</option>
-                            <option value="usa">USA</option>
-                        </select>
-                    </div>-->
-                    <div class="container2-box" style="padding-left: 200px; padding-right: 225px;">
-                        <input type="proceed" value="Proceed to Billing">
-
+                    <div class="container2-box" style="padding-left: 200px; padding-right: 200px;">
+                        <input type="submit" value="Proceed to Billing">
                     </div>
                     <br>
                 </div>
@@ -105,6 +106,8 @@
             <div class="box3">
 
             </div>
+        </div>
+        </form>
         <div>
 
         </div>
