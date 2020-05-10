@@ -18,7 +18,7 @@ include 'db.php';
 
 
 	<div class="output">
-		<?php $sql = "SELECT * FROM messages";
+		<?php $sql = "SELECT * FROM messages ORDER BY date ASC";
 		$result = $conn->query($sql);
 		
 		
