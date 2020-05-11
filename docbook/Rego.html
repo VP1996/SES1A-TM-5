@@ -7,7 +7,7 @@
    
     
     <link rel="stylesheet" type="text/css" href= "./css/style.css" />
-
+    <script src="./js/Slideshow.js" type="text/javascript"></script>
     <body></body>
     
         <div class="headerMenu">
@@ -15,7 +15,7 @@
                 <div class="container2-box" style="flex-basis: 50%;">
                     <div id="wrapper">
                         <div class="logo">
-                            <a href="index.html">
+                            <a href="HomePage.html">
                             <img src="./img/docbook-logo.png"/>
                             </a>
                         </div>
@@ -34,28 +34,36 @@
         </div>
 
         <div class="navbar">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
+            <a href="HomePage.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="Contact.html">Contact</a>
         </div>
     </div>  
-    
-    <div class="box1" style="flex: 1; background-color: rgba(255, 255, 255, 0.808); text-align: left; margin: 13px">
-        <br>
- 
-     
-     <div class = "Rego">
+
+        <div class="form" style="height:560px">
+
+            <h1 style="font-size:28px" >Register</h1>
 
         <form id="Register" class="input-group"> 
-           
-    
         <input type ="FName" name="FirstName" class="input-field" Placeholder="    First Name" required>
         <input type ="LName" name="LastName" class="input-field" Placeholder="    Last Name"required>
         <input type ="Age" name="Age" class="input-field" Placeholder="    Age" required>
         <input type ="Email" name="EmailAddress" class="input-field" Placeholder="    Email Address" required>
         <input type ="Password" name="Password" class="input-field" Placeholder="    Password" required>
         <input type ="ConfirmPassword" name="ConfirmPassword" class="input-field" Placeholder="    Confirm Password" required>
+        <br>
+        <br>
+        <p1 style="font-size:20px;display:inline-block ">Are you a doctor?</p1>
+        <!--onoffswitch-->
+        <div class="onoffswitch">
+            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+            <label class="onoffswitch-label" for="myonoffswitch">
+                <span class="onoffswitch-inner"></span>
+                <span class="onoffswitch-switch"></span>
+            </label>
+        </div>
         <input type="submit" class= "submit-btn" name="Rsubmit" value="Register" placeholder="Register">
         </form>
+        </div>
     </div>
 </div>
