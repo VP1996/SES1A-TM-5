@@ -488,6 +488,27 @@ color: white;
   animation-duration: 1.5s;
 }
 
+
+/* Login Rego Pages*/
+
+
+
+}
+
+.input-field{
+
+      width: 100%;
+      padding:20px 0;
+      margin: 5px 0;
+      border-left: 0;
+      border-top: 0;
+      border-bottom: 1px;
+      border-right:0 solid #999;
+      outline: rgb(43, 38, 38) ;
+      background: rgb(240, 243, 245);
+
+}
+
 @-webkit-keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
