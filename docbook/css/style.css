@@ -11,13 +11,13 @@ body {
     background-image: url("../img/docbook-bg.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;  
-    background-size: cover;
+    background-size: auto;
 
 }
         
 /*logo stuff*/
 
-.logo {
+/*.logo {
     width:125px;
 
         }
@@ -26,6 +26,9 @@ body {
     width:120px;
     height:100px;
         }
+
+
+*/
    
 .headerMenu {
     background-color:rgba(55, 220, 226, 0.678);
