@@ -167,6 +167,36 @@ box-shadow: 0 2px #666;
 transform: translateY(4px);
 }
 
+.submit-btn{
+
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: linear-gradient( to right, rgb(6, 161, 223), rgb(77, 136, 224));
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+}
+
+
+.input-row{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  position: relative;
+  
+}
+
+
+.input-row .input-group{
+
+  flex-basis: 48%;
+
+}
+
+
 /* headings */
 
 h1 {
@@ -573,6 +603,17 @@ color: white;
       border-right:0 solid #999;
       outline: rgb(43, 38, 38) ;
       background: rgb(240, 243, 245);
+
+}
+
+.profile{
+  background-color: white;
+  display:flex;
+  flex-basis: 60%;
+  padding: 40px 60px;
+  outline: blue;
+  margin-left: 20%;
+  margin-right: 20% ;
 
 }
 
