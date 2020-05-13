@@ -1,3 +1,23 @@
+<?php 
+
+$mysqli = new mysqli('localhost', 'root', ''/*, 'name of db' */);
+
+session_start();
+if (isset($_GET['user']))
+{
+$user = $_GET['user'];
+$get_user = $mysqli->query("SELECT * FROM users /*or whatever the db is called */ WHERE username = '$user'");
+if ($get_user->num_rows == 1)
+{
+    $profile_data = $get_user->fetch_assoc();         
+}
+       
+} 
+?>
+
+
+
+
 <!DOCTYPE html>
 
 <html>
@@ -9,14 +29,14 @@
 
 
      
-    <header style="top: 0;"> 
+   <!-- <header style="top: 0;"> 
     <div style="top: 0; width: 30px;">
     <a href="HomePage.html"> 
         <img src="./img/docbook-logo.png" /> 
         </a> 
     </div>
     </header>
-
+--->
 <style>
 
 
@@ -122,10 +142,6 @@ body {
     font-family: Arial;
 
 }
-
-
-
-
 .submit-btn{
 
 width: 85%;
@@ -145,8 +161,7 @@ border-radius: 30px;
 </style>
 
 <body>
-  
-
+ 
     <div class="navbar">
          <a href="HomePage.html">Home</a> 
             <a href="Doctors.html">Doctors</a> 
@@ -163,6 +178,13 @@ border-radius: 30px;
       <div class="image">
 
         <h3 style="margin-left:30%; font-size:xx-large;">Your Profile</h3>
+        
+        <h3> <?php           
+           $visitor = $_SESSION['username'];
+           if ($user == $visitor)
+{ ?>            <a href="edit-profile.php?user=<?php echo $profile_data['username'] ?>">Edit Profile</a>            <?php
+}
+        ?>        </h3>  
 
         <img style="margin-left:25%; margin-bottom: 8%;"   src="./img/download.png" aria-placeholder="Tim Henson">
         
@@ -172,13 +194,12 @@ border-radius: 30px;
          
         <div class="input-group">
         <label>Age:</label>
-        <input type="text" >
         <?php echo $profile_data['age'] ?>
          </div>
 
          <div class="input-group">
             <label>Gender:</label>
-            <input type="text" >
+            <?php echo $profile_data['gender'] ?>
              </div>
 
 
@@ -188,14 +209,14 @@ border-radius: 30px;
 
          <div class="input-group">
                 <label>Location:</label>
-                <input type="text" >
+                <?php echo $profile_data['location'] ?>
                  </div>
 
 
 
      <div class="input-group">
          <label>Email:</label>
-        <input type="email" >
+         <?php echo $profile_data['email'] ?>
         </div>
     </div>
 
@@ -203,12 +224,12 @@ border-radius: 30px;
     <div class="input-row">
         <div class="input-group">
             <label>Password:</label>
-           <input type="password" >
+            <?php echo $profile_data['password'] ?>
            </div>
             
            <div class="input-group">
-            <label>Doctor ID:</label>
-           <input type="text" >
+            <label>Patient ID:</label>
+            <?php echo $profile_data['id'] ?>
            </div>
             
         </div>
@@ -216,7 +237,7 @@ border-radius: 30px;
         <div class="input-row">
            <div class="input-group">
             <label>Phone Number</label>
-           <input type="text" >
+            <?php echo $profile_data['phone'] ?>
            </div>
          </div>      
             
@@ -238,6 +259,13 @@ border-radius: 30px;
 
 
    
+   
+
+
+
+ 
+    
+    
     
 </body>
 

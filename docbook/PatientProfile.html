@@ -68,7 +68,14 @@
   transform: translate();
 }
 
+.profile{
 
+  margin-left: 20%;
+  margin-right: 20% ;
+
+
+
+}
 
 .box{
     width:60%;
@@ -134,7 +141,9 @@ border-radius: 30px;
 </style>
 
 <body>
- 
+
+
+  
     <div class="navbar">
          <a href="HomePage.html">Home</a> 
             <a href="Doctors.html">Doctors</a> 
@@ -149,20 +158,24 @@ border-radius: 30px;
 
      <div class="profile">
       <div class="image">
-        <h3>Your Profile</h3>
-        <img src="./img/download.png" alt="Timmy Hen">
+
+        <h3 style="margin-left:30%; font-size:xx-large;">Your Profile</h3>
+
+        <img style="margin-left:25%; margin-bottom: 8%;"   src="./img/download.png" aria-placeholder="Tim Henson">
+        
         <form>
 
       <div class="input-row">
          
         <div class="input-group">
         <label>Age:</label>
-        <input type="text" placeholder="28">
+        <input type="text" >
+        <?php echo $profile_data['age'] ?>
          </div>
 
          <div class="input-group">
             <label>Gender:</label>
-            <input type="text" placeholder="Male">
+            <input type="text" >
              </div>
 
 
@@ -172,14 +185,14 @@ border-radius: 30px;
 
          <div class="input-group">
                 <label>Location:</label>
-                <input type="text" placeholder="Ultimo NSW">
+                <input type="text" >
                  </div>
 
 
 
      <div class="input-group">
          <label>Email:</label>
-        <input type="email" placeholder="timmyhen@mail.com">
+        <input type="email" >
         </div>
     </div>
 
@@ -187,12 +200,12 @@ border-radius: 30px;
     <div class="input-row">
         <div class="input-group">
             <label>Password:</label>
-           <input type="password" placeholder="ultimoNSW" >
+           <input type="password" >
            </div>
             
            <div class="input-group">
             <label>Patient ID:</label>
-           <input type="text" placeholder="23928198">
+           <input type="text" >
            </div>
             
         </div>
@@ -200,7 +213,7 @@ border-radius: 30px;
         <div class="input-row">
            <div class="input-group">
             <label>Phone Number</label>
-           <input type="text" placeholder="0420391345">
+           <input type="text" >
            </div>
          </div>      
             
@@ -219,6 +232,11 @@ border-radius: 30px;
     </div>
 
 
+
+
+
+
+ 
     
     
     
