@@ -43,9 +43,18 @@ include 'db.php';
 
 	<textarea name="msg" placeholder="Type here to send messages." class="send"></textarea> <br>
 	
-	<input type="submit" value="Send">
+	<input class="sendBtn" type="submit" value="Send" onclick="disableSend()" >
 
-
+<script type="text/javascript">
+    function disableSend(){
+        if(this.value.length > 0) { 
+            document.getElementById('sendBtn').disabled = false; 
+        } else { 
+            document.getElementById('sendBtn').disabled = true;
+        }
+    }
+   
+</script>
 
 </form>
 
