@@ -124,7 +124,6 @@ body {
   justify-content: center;
 }
 
-<<<<<<< HEAD
 .container3 {
   display: flex;
 }
@@ -146,10 +145,6 @@ letter-spacing: 0.5px;
 
 }
 
-img {
-
-max-width: 100%;
-border-radius: 50%;
 
 }
 
@@ -218,7 +213,7 @@ font-size: 10px;
 
 .chat-pg 
 {
-padding 0 0 50px 0;
+padding  0 50px 0;
 
 
 }
@@ -331,6 +326,18 @@ font-size: 14px;
     width: 61% !important;
     background-color: #fff;
 }
+
+.login-input-group
+{
+    display:inline;
+    margin-top: 13px;
+    margin-right: 13px;
+   
+    border-radius: 20px;
+    width: 61% !important;
+    background-color: #fff;
+}
+
 .form-control
 {
     border: none !important;
@@ -371,10 +378,6 @@ font-size: 14px;
 .container1 div, .container2 div{
   border:1px #000000 solid;
   padding:10px;
-=======
-.container3{
-  display: flex;
->>>>>>> Appointments
 }
 
 .container4{
@@ -400,15 +403,10 @@ font-size: 14px;
 .box1 {
   flex: 3;
   order: 2;
-<<<<<<< HEAD
   color: rgba(2, 2, 2, 0.74);
   font-size: 24px;
   text-align: center;
   
-=======
-  color: rgba(138, 138, 138, 0.74);
-  font-size: 24px;
->>>>>>> Appointments
 }
 
 .box2 {
@@ -429,18 +427,13 @@ font-size: 14px;
 /*container 3 boxes*/
 
 .container3-box1 {
-<<<<<<< HEAD
   flex: 8;
-=======
-  flex: 1;
->>>>>>> Appointments
   order: 1;
 }
 
 .container3-box2 {
   flex: 1;
   order: 2;
-<<<<<<< HEAD
 }
 
 .container3-box3 {
@@ -463,12 +456,6 @@ font-size: 14px;
 .container4-box3 {
   flex: 1;
   order: 3;
-=======
-}
-
-.container4-box {
-  flex-basis: 50%;
->>>>>>> Appointments
 }
 
 
@@ -807,26 +794,11 @@ box-shadow: 0px 0px 1px #777;
   }
   
 /* Current/active navbar link */
-<<<<<<< HEAD
 .navbar a:active {
   background-color: rgba(6, 149, 216, 0.5);
   box-shadow: 0 5px #666;
   transform: translate();
 }
-=======
-  .navbar a:active {
-    background-color: rgba(6, 149, 216, 0.5);
-    box-shadow: 0 5px #666;
-    transform: translate();
-  }
-  
-/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
-  @media screen and (max-width: 500px) {
-    .navbar a {
-    float: none;
-      display: inline;
-    }
->>>>>>> Appointments
 
 /* float*/
     .column.side, .column.middle {
@@ -841,7 +813,6 @@ box-shadow: 0px 0px 1px #777;
   }
 
 
-<<<<<<< HEAD
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
@@ -946,7 +917,7 @@ box-shadow: 0px 0px 1px #777;
     position: relative;
     display:inline-block;
     width: 90px;               
-    float: right;
+    float:right;
     -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
 }
 .onoffswitch-checkbox {
@@ -1024,34 +995,17 @@ box-shadow: 0px 0px 1px #777;
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
-}}
+}
 
 /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
 @media screen and (max-width: 500px) {
   .navbar a {
   float: none;
-    display: inline;
-=======
-  .chatBox {
-    position: relative;
-    top: 475px;
-    
-    
-    
-    
-    }
-  
-  .footer {
-    text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
-    background-color: rgba(6, 128, 184, 0.753);
-    height: 150px;
-    width: 100%;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-  }
-    
->>>>>>> Appointments
-  }
+    display: inline;}
+
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+   float: none;
+   display: inline;
+      }
