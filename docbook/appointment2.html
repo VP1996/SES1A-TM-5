@@ -3,14 +3,21 @@
     <header>
         <title> DocBook </title>
         <link rel="stylesheet" type="text/css" href= "./css/style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet">  
     </header>
     <body>
+
+        
+    <div id="page-container">
+        <div id="content-wrap">
+        
         <div class="headerMenu">
             <div class="container2">
                 <div class="container2-box" style="flex-basis: 50%;">
                     <div id="wrapper">
                         <div class="logo">
-                            <a href="index.html">
+                            <a href="PatientHomePage.html">
                             <img src="./img/docbook-logo.png"/>
                             </a>
                         </div>
@@ -21,7 +28,7 @@
                         <br>
                         <br>
                         <br>
-                        <button class="loginbutton">Login/Register</button>
+                        <a href="#"><button class="loginbutton">Sign Out</button></a>
                     </div>  
                 </div>
             </div>
@@ -29,12 +36,13 @@
 
         <div class="navbar" >
             
-                <a href="#">Your Profile</a>
-                <a href="#">Our Doctors</a>
-                <a href="#">Online Prescriptions</a>
-                <a href="#">Chat with patient</a>
-                <a href="#">Appointments</a>
-                <a href="#">Sign out</a>
+            <a href="PatientHomePage.html">Home</a> 
+            <a href="Doctors.html">Doctors</a> 
+            <a href="Bookings.html">Bookings</a> 
+            <a href="Prescriptions.html">Prescriptions</a> 
+            <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
+            <a href="#"> <i class="fa fa-bell" aria-hidden="true"></i> Notification</a>
+            <a style="float:right" href="PatientProfile.html">Profile</a> 
             
             
         </div>
@@ -111,8 +119,10 @@
         <div>
 
         </div>
+        </div>
+        </div>
 
-        <div class="footer" style="position: relative;">
+        <div class="footer">
             
 
             <div>
@@ -122,7 +132,7 @@
             <div style="padding-left: 100px;">
                 <table id="contact">
                     <tr>
-                      <th><b style="font-size: 16px;">Contact Us</b></th>
+                      <th>Contact Us</th>
                     </tr>
                     <tr>
                       <td><a href="#">Email</a></td>
@@ -132,7 +142,10 @@
                     </tr>
                   </table>
             </div>
-        </div>
-    </body>
+        
     
-</html>
+        
+    
+        </body>
+        
+    </html>

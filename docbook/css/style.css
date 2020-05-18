@@ -24,6 +24,12 @@ body {
   padding-bottom: 2.5rem;    /* Footer height */
 }
 
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
 
 
 /* Slideshow container */
