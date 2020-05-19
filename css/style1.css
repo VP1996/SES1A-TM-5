@@ -1,0 +1,514 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Arial;
+    font-size:12px;
+    
+    
+}
+
+body {
+    background-image: url("../img/docbook-bg1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+
+}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  flex: 4;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 5px 5px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
+/* flexbox */
+
+/*container 1*/
+.container1 {
+  display: flex;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+}
+
+.container3{
+  display: flex;
+}
+
+.container4{
+  display: flex;
+  justify-content: left;
+
+}
+/*
+.container1 div, .container2, .container3, .container4 div{
+  border:1px #000000 solid;
+  padding:10px;
+}
+*/
+.box1 {
+  flex: 3;
+  order: 2;
+  color: rgba(138, 138, 138, 0.74);
+  font-size: 24px;
+}
+
+.box2 {
+  flex: 1;
+  order: 1;
+}
+
+.box3 {
+  flex: 1;
+  order: 3;
+}
+
+/*container 2 boxes*/
+.container2-box{
+  flex-basis: 27%;  
+}
+
+.container3-box1 {
+  flex: 1;
+  order: 1;
+}
+
+.container3-box2 {
+  flex: 1;
+  order: 2;
+}
+
+.container4-box {
+  flex-basis: 50%;
+}
+
+
+/* input boxes */
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #000;
+}
+
+input[type=submit] {
+  text-align: center;
+  font-size: 16px;
+  width: 100%;
+  background-color: rgba(6, 149, 216, 0.5);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 1px #000 solid;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgba(107, 107, 107, 0.781);
+  color: #ccc;
+}
+
+input[type=submit]:active {
+  background-color: rgba(6, 149, 216, 0.5);
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
+
+/* formatting */
+label {
+  font-size: 18px;
+  color: #000;
+}
+
+
+h1 {
+  font-size: 36px;
+  color: black;
+}
+
+h3 {
+  color: black;
+  font-size: 30px;
+}
+
+p.normal {
+  line-height: 1.5;
+  color: #000;
+  font-size: 14px;
+}
+
+b.big {
+  line-height: 1.5;
+  color: #000;
+  font-size: 16px;
+}
+
+/* button styles */
+
+.button {
+  
+  background-color: rgba(148, 147, 147, 0.726);
+  border-style: double;
+  border-color: rgba(0, 0, 0, 0.26);
+  border-radius: 8px;
+  color: black;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-right:50px;
+}
+
+.button:hover {
+  background-color: rgba(6, 150, 216, 0.788);
+  color: white;
+}
+
+.button:active {
+  background-color: rgba(75, 198, 255, 0.788);
+  box-shadow: 0 3px #666;
+  transform: translateY(2px);
+}
+
+
+.buttonS {
+  background-color: rgb(223, 223, 223);
+  border-style: solid;
+  border-color:black;
+  border-radius: 32px;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 250px;
+  transition: all 0.5s;
+}
+
+.buttonS:hover {
+  background-color: rgba(6, 150, 216, 0.788);
+  color: white;
+}
+
+.buttonS span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonS span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonS:hover span {
+  padding-right: 25px;
+}
+
+.buttonS:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/*loginandrego*/
+
+.loginbutton {
+  background-color: #bbb;
+  padding: .5em;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 6px;
+  color: #fff;
+  font-family: 'Oswald';
+  font-size: 20px;
+  text-decoration: none;
+  border: none;
+}
+.loginbutton:hover {
+border: none;
+background: orange;
+box-shadow: 0px 0px 1px #777;
+  }
+
+.registerbutton {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  
+}
+
+/* footer */
+
+.footer {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    background-color: rgba(6, 128, 184, 0.753);
+    height: 150px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+/* tables */
+#general {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#general th {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 4px;
+  font-size: 26px;
+}
+#general td {
+  color: #000;
+  font-size: 18px;
+  padding: 4px;
+}
+
+#general tr:nth-child(even){
+  background-color: rgba(221, 221, 221, 0.514);
+}
+
+#general tr:hover {
+  background-color: #ddd;
+}
+
+#general th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgba(92, 193, 240, 0.5);
+  color: rgb(0, 0, 0);
+}
+
+#contact {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+}
+
+#contact td, #contact th {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 4px;
+}
+
+#contact tr:nth-child(even){background-color: rgba(221, 221, 221, 0.514);}
+
+#contact tr:hover {background-color: #ddd;}
+
+#contact th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgba(55, 157, 204, 0.5);
+  color: white;
+}
+
+/*logo stuff*/
+
+.logo {
+    width:125px;
+
+        }
+        
+.logo img {
+    width:120px;
+    height:100px;
+        }
+   
+.headerMenu {
+    background-color:rgba(6, 128, 184, 0.753);
+    height:"50px";
+    border-bottom:0px;
+    padding-left: auto;
+    padding-right: auto;
+    width: 100%;
+    
+        }
+
+#wrapper {
+    margin-left:10px;
+    margin-right:auto;
+    width:1000px;
+    padding-top:0px;
+    padding-bottom:0px;
+        }
+ 
+
+
+/* Style the navigation bar */
+.navbar {
+    width: 100%;
+    background-color: rgba(53, 52, 52, 0.719);
+    overflow: auto;
+    
+  }
+  
+/* Navbar links */
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+/* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: rgba(0, 0, 0, 0.658);
+  }
+  
+/* Current/active navbar link */
+  .navbar a:active {
+    background-color: rgba(6, 149, 216, 0.5);
+    box-shadow: 0 5px #666;
+    transform: translate();
+  }
+  
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+    float: none;
+      display: inline;
+    }
+
+/* float*/
+    .column.side, .column.middle {
+     width: 100%;
+    }
+    
+/* Chat System*/
+
+
+  .chatBox {
+    position: relative;
+    top: 475px;
+    
+    
+    
+    
+    }
+  
+  .footer {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    background-color: rgba(6, 128, 184, 0.753);
+    height: 150px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+  }
+    
+  }
