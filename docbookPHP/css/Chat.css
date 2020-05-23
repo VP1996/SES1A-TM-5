@@ -1,0 +1,33 @@
+
+
+
+.chatBox {
+position: relative;
+top: 435px;
+right: 60px;
+}
+
+ .sendBtn { 
+	position: relative; 
+	 top: 415px; 
+	 left: 330px; 
+	
+ } 
+
+
+
+.myfile {
+		position: relative;
+	top: 415px;
+	right: -400px;
+	background-picture: url ('./img/attachBtn.png');
+	
+}
+
+	
+.picBtn {
+position: relative;
+top: 435px;
+right: 60px;	
+	
+}

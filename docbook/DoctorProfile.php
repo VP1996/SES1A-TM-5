@@ -1,8 +1,26 @@
+<?php 
+
+$mysqli = new mysqli('localhost', 'root', ''/*, 'name of db' */);
+
+session_start();
+if (isset($_GET['user']))
+{
+$user = $_GET['user'];
+$get_user = $mysqli->query("SELECT * FROM users /*or whatever the db is called */ WHERE username = '$user'");
+if ($get_user->num_rows == 1)
+{
+    $profile_data = $get_user->fetch_assoc();         
+}
+       
+} 
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
     
     <head>
-    <title>DocBook</title>
+    <title>Profile</title>
    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet">   
@@ -45,6 +63,10 @@
                <a href="#"> <i class="fa fa-bell" aria-hidden="true"></i> Notification</a>
                <a style="float:right" href="Profilepage.html">Profile</a> 
          </div> 
+
+
+
+         
    
    
          <div class="form" style="height:780px; width:600px; padding:42px">

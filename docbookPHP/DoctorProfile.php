@@ -1,26 +1,9 @@
-<?php 
-
-$mysqli = new mysqli('localhost', 'root', ''/*, 'name of db' */);
-
-session_start();
-if (isset($_GET['user']))
-{
-$user = $_GET['user'];
-$get_user = $mysqli->query("SELECT * FROM users /*or whatever the db is called */ WHERE username = '$user'");
-if ($get_user->num_rows == 1)
-{
-    $profile_data = $get_user->fetch_assoc();         
-}
-       
-} 
-?>
-
-
+<?php include('server.php') ?>
 <!DOCTYPE html>
 <html lang="en">
     
     <head>
-    <title>DocBook</title>
+    <title>Profile</title>
    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet">   
@@ -37,7 +20,7 @@ if ($get_user->num_rows == 1)
                 <div class="container2-box" style="flex-basis: 50%;">
                     <div id="wrapper">
                         <div class="logo">
-                            <a href="HomePage.html">
+                            <a href="DocHomePage.php">
                             <img src="./img/docbook-logo.png"/>
                             </a>
                         </div>
@@ -55,18 +38,14 @@ if ($get_user->num_rows == 1)
         </div>
 
         <div class="navbar">
-            <a href="HomePage.html">Home</a> 
-               <a href="Doctors.html">Doctors</a> 
-               <a href="Bookings.html">Bookings</a> 
-               <a href="Prescriptions.html">Prescriptions</a> 
-               <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
-               <a href="#"> <i class="fa fa-bell" aria-hidden="true"></i> Notification</a>
-               <a style="float:right" href="Profilepage.html">Profile</a> 
+            <a href="DocHomePage.php">Home</a> 
+            <a href="Chat.php">Chat</a> 
+            <a href="DoctorAppointments.php">Bookings</a> 
+            <a href="DoctorPrescriptions.php">Prescriptions</a> 
+            <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
+            <a href="#"> <i class="fa fa-bell" aria-hidden="true"></i> Notification</a>
+            <a style="float:right" href="DoctorProfile.php">Profile</a> 
          </div> 
-
-
-
-         
    
    
          <div class="form" style="height:780px; width:600px; padding:42px">
