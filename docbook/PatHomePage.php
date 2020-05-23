@@ -1,3 +1,4 @@
+<?php include('server.php') ?>
 <!DOCTYPE html>
 <html>
     <header>
@@ -11,7 +12,7 @@
             <div class="container2-box" style="flex-basis: 50%;">
                 <div id="wrapper">
                     <div class="logo">
-                        <a href="index.html">
+                        <a href="PatHomePage">
                         <img src="./img/docbook-logo.png"/>
                         </a>
                     </div>
@@ -22,7 +23,7 @@
                     <br>
                     <br>
                     <br>
-                    <a href="#"><button class="loginbutton">Sign Out</button></a>
+                    <a href="index.php"><button class="loginbutton">Sign Out</button></a>
                 </div>  
             </div>
         </div>
@@ -30,13 +31,13 @@
 
         <div class="navbar" >
             
-            <a href="PatientHomePage.html">Home</a> 
-            <a href="Doctors.html">Doctors</a> 
-            <a href="Bookings.html">Bookings</a> 
-            <a href="Prescriptions.html">Prescriptions</a> 
+            <a href="DocHomePage.php">Home</a> 
+            <a href="Chat.php">Chat</a> 
+            <a href="DoctorsAppointments.php">Bookings</a> 
+            <a href="Prescriptions.php">Prescriptions</a> 
             <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
             <a href="#"> <i class="fa fa-bell" aria-hidden="true"></i> Notification</a>
-            <a style="float:right" href="PatientProfile.html">Profile</a> 
+            <a style="float:right" href="DoctorProfile.php">Profile</a> 
             
             
         </div>

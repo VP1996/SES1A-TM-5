@@ -1,8 +1,9 @@
+<?php include('server.php') ?>
 <!DOCTYPE html>
 <html lang="en">
     
     <head>
-    <title>DocBook</title>
+    <title>Doctors</title>
    
      <!-- CSS here-->
 
@@ -18,7 +19,7 @@
             <div class="container2-box" style="flex-basis: 50%;">
                 <div id="wrapper">
                     <div class="logo">
-                        <a href="PatientHomePage.html">
+                        <a href="PatHomePage.php">
                         <img src="./img/docbook-logo.png"/>
                         </a>
                     </div>
@@ -37,13 +38,13 @@
     </div>
     
         <div class="navbar">
-             <a href="PatientHomePage.html">Home</a> 
-            <a href="Doctors.html">Doctors</a> 
-            <a href="Bookings.html">Bookings</a> 
-            <a href="Prescriptions.html">Prescriptions</a> 
-            <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
-            <a href="#"> <i class="fa fa-bell" aria-hidden="true"></i> Notification</a>
-            <a style="float:right" href="PatientProfile.html">Profile</a> 
+          <a href="PatHomePage.php">Home</a> 
+          <a href="availDoc.php">Doctors</a> 
+          <a href="Bookings.php">Bookings</a> 
+          <a href="PatientPrescriptions.php">Prescriptions</a> 
+          <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
+          <a href="#"> <i class="fa fa-bell" aria-hidden="true"></i> Notification</a>
+          <a style="float:right" href="PatientProfile.php">Profile</a> 
         </div>
         <br>
         
@@ -62,7 +63,7 @@
                       <td>Alex Jones</td>
                       <td>23 pitt street</td>
                       <td>9am - 12pm</td>
-                      <td style="text-align: center;"><button class="button"><a href="Appointment2.html">Appointment</a></button></td>
+                      <td style="text-align: center;"><button class="button"><a href="appointmentBooking1.php">Appointment</a></button></td>
                     </tr>
                     <tr>
                       <td>Rachekl Done</td>
@@ -74,7 +75,7 @@
                       <td>Bob Nan</td>
                       <td>uts building 5</td>
                       <td>2pm -5pm</td>
-                      <td style="text-align: center;"><button class="button"><a href="Appointment2.html">Appointment</a></button></td>
+                      <td style="text-align: center;"><button class="button"><a href="appointmentBooking1.php">Appointment</a></button></td>
                     </tr>
                   </table>
             </div>

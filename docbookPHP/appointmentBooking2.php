@@ -1,3 +1,4 @@
+<?php include('server.php') ?>
 <!DOCTYPE html>
 <html>
     <header>
@@ -15,7 +16,7 @@
         <div class="headerMenu">
             <div id="wrapper">
                 <div class="logo">
-                    <a href="appointment1.html">
+                    <a href="PatHomePage.php">
                     <img src="./img/docbook-logo.png"/>
                     </a>
                 </div>
@@ -24,13 +25,13 @@
 
         <div class="navbar" >
             
-            <a href="PatientHomePage.html">Home</a> 
-            <a href="Doctors.html">Doctors</a> 
-            <a href="Bookings.html">Bookings</a> 
-            <a href="Prescriptions.html">Prescriptions</a> 
+            <a href="PatHomePage.php">Home</a> 
+            <a href="availDoc.php">Doctors</a> 
+            <a href="Bookings.php">Bookings</a> 
+            <a href="PatientPrescriptions.php">Prescriptions</a> 
             <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
             <a href="#"> <i class="fa fa-bell" aria-hidden="true"></i> Notification</a>
-            <a style="float:right" href="PatientProfile.html">Profile</a> 
+            <a style="float:right" href="PatientProfile.php">Profile</a> 
             
             
         </div>
@@ -53,7 +54,7 @@
                 <h3 style="text-align: center;">Your appointment is being processed. <br>Your booking information will be sent to your email.</h3>
                 <br>
                 <br>
-                <p style="color: #000;">back to <span style="background-color:rgba(255, 255, 255, 0.788);"><a href="Home Page.html">homepage</a></span>.</p>
+                <p style="color: #000;">back to <span style="background-color:rgba(255, 255, 255, 0.788);"><a href="PatHomePage.php">homepage</a></span>.</p>
             </div>
             <div class="box2">
 
