@@ -1,0 +1,114 @@
+<?php include('server.php') ?>
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+    <title>Doctors</title>
+   
+     <!-- CSS here-->
+
+    <link rel="stylesheet" type="text/css" href= "./css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet">  
+    </head>
+    
+    <body>
+
+    <div class="headerMenu">
+        <div class="container2">
+            <div class="container2-box" style="flex-basis: 50%;">
+                <div id="wrapper">
+                    <div class="logo">
+                        <a href="PatHomePage.php">
+                        <img src="./img/docbook-logo.png"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container2-box" style="flex-basis: 50%;">
+                <div style="text-align: right; padding-right: 10px;">
+                    <br>
+                    <br>
+                    <br>
+                    <a href="#"><button class="loginbutton">Sign Out</button></a>
+                    
+                </div>  
+            </div>
+        </div>
+    </div>
+    
+        <div class="navbar">
+          <a href="PatHomePage.php">Home</a> 
+          <a href="availDoc.php">Doctors</a> 
+          <a href="Bookings.php">Bookings</a> 
+          <a href="PatientPrescriptions.php">Prescriptions</a> 
+          <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
+          <a href="#"> <i class="fa fa-bell" aria-hidden="true"></i> Notification</a>
+          <a style="float:right" href="PatientProfile.php">Profile</a> 
+        </div>
+        <br>
+        
+        <div class="container1">
+            <div class="box1" style="flex: 3; background-color: rgba(108, 119, 128, 0.822); padding: 10px; border-radius: 8px;" >
+                <h1 style="padding-left: 50px;"> Available Doctors</h1>
+                <br>
+                <table id="general">
+                    <tr>
+                      <th>Doctor</th>
+                      <th>Location</th>
+                      <th>Time</th>
+                      <th>Availabilitiy</th>
+                    </tr>
+                    <tr>
+                      <td>Alex Jones</td>
+                      <td>23 pitt street</td>
+                      <td>9am - 12pm</td>
+                      <td style="text-align: center;"><button class="button"><a href="appointmentBooking1.php">Appointment</a></button></td>
+                    </tr>
+                    <tr>
+                      <td>Rachekl Done</td>
+                      <td>54 george street</td>
+                      <td>9am - 12pm</td>
+                      <td style="text-align: center;">Busy</td>
+                    </tr>
+                    <tr>
+                      <td>Bob Nan</td>
+                      <td>uts building 5</td>
+                      <td>2pm -5pm</td>
+                      <td style="text-align: center;"><button class="button"><a href="appointmentBooking1.php">Appointment</a></button></td>
+                    </tr>
+                  </table>
+            </div>
+            <div class="box2">
+
+            </div>
+            <div class="box3">
+
+            </div>
+        </div>
+        <div class="footer" style="bottom: 0;">
+            
+
+            <div>
+                <p style="font-size: 16px; color: #000; font-family: sans-serif; padding-left: 100px;"> Copyright &copy; 2020 DocBook </p>
+            </div>
+            <div style="padding-left: 100px;">
+                <table id="contact">
+                    <tr>
+                      <th><b style="font-size: 16px;">Contact Us</b></th>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Email</a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Phone</a></td>
+                    </tr>
+                  </table>
+            </div>
+        </div>
+    </body>
+</html>
+  
+  
+  
+   
