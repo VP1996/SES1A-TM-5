@@ -152,7 +152,7 @@ if (isset($_POST['Update_Dsub'])) {
 
   if(count($errors) == 0){
   
-  	$query = "UPDATE doctor SET DFName = '$a', DLName = '$b' ,DAge = '$c', DGender = '$d', DLocation = '$e', DPhone = '$f' , DEmail = '$g' , DPassword = '$h'   WHERE DEmail = '$z'";			 
+  	$query = "UPDATE doctor SET DFName = '$a', DLName = '$b' ,DAge = '$c', DGender = '$d', DLocation = '$e', DPhone = '$g' , DEmail = '$f' , DPassword = '$h'   WHERE DEmail = '$z'";			 
   	mysqli_query($db, $query);
     header('location: DocHomePage.php'); 
 	}
@@ -179,7 +179,7 @@ if (isset($_POST['Update_Psub'])) {
 
   if(count($errors) == 0){
   
-  	$query = "UPDATE patient SET PFName = '$a', PLName = '$b' ,PAge = '$c', PGender = '$d', PLocation = '$e', PPhone = '$f' , PEmail = '$g' , PPassword = '$h'   WHERE PEmail = '$z'";			 
+  	$query = "UPDATE patient SET PFName = '$a', PLName = '$b' ,PAge = '$c', PGender = '$d', PLocation = '$e', PPhone = '$g' , PEmail = '$f' , PPassword = '$h'   WHERE PEmail = '$z'";			 
   	mysqli_query($db, $query);
     header('location: PatHomePage.php'); 
 	}

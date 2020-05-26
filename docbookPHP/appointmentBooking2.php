@@ -41,7 +41,7 @@
         <a href="availDoc.php">Doctors</a> 
         <a href="PatientPrescriptions.php">Prescriptions</a> 
 		<a href="chatpage.php">Chat</a> 
-        <a href="#"> <i class="fa fa-bell" aria-hidden="true"></i> Notification</a> 
+       
             
             
         </div>
