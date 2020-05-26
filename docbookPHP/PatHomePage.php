@@ -1,9 +1,10 @@
-<?php include('server.php'); ?>
+<?php include('server.php') ?>
 <!DOCTYPE html>
 <html>
     <header>
-	
         <title> DocBook </title>
+        <link rel="stylesheet" type="text/css" href= "./css/style.css" />        
+        <link rel="stylesheet" type="text/css" href= "./css/docleftbar.css" />
         <link rel="stylesheet" type="text/css" href= "./css/style.css" />
         <link rel="stylesheet" type="text/css" href="./css/footer.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -35,12 +36,14 @@
         <div class="navbar" >
             
         <a href="PatHomePage.php">Home</a> 
-		<a href="PatientProfile.php">Profile</a> 
-        <a href="availDoc.php">Doctors</a> 
-        <a href="PatientPrescriptions.php">Prescriptions</a> 
-		<a href="chatpage.php">Chat</a> 
-        <a href="#"> <i class="fa fa-bell" aria-hidden="true"></i> Notification</a> 
- 
+          <a href="availDoc.php">Doctors</a> 
+          <a href="Bookings.php">Bookings</a> 
+          <a href="PatientPrescriptions.php">Prescriptions</a> 
+          <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
+          <a href="#"> <i class="fa fa-bell" aria-hidden="true"></i> Notification</a>
+          <a style="float:right" href="PatientProfile.php">Profile</a> 
+            
+            
         </div>
 
         <div>
@@ -50,21 +53,35 @@
 
         <div class="container1" style="flex-direction: row; padding: 10px;  ">
             <div style="flex-basis: 25%; background-color: rgba(255, 255, 255, 0.774); padding: 1%; overflow: auto;">
+
+            
+            <div class="calendar_header">
+                        <img src="./img/male.png" alt="avatar" style="float:right;border-radius:50%; width:40px; border-style:solid; border-width:thin">
+                        <h1 style="font-size: 22px;" >Welcome Back</h1>
+                        <p class="header_copy"> Schedule</p>
+                      </div>
+                      <div class="calendar_plan">
+                        <div class="cl_plan">
+                        
+                        <div class="cl_title;">Today</div>
+                        <div class="cl_copy">28th  May  2020</div>
+                        <a href="#"> <img src="./img/adddate.png" alt="add" style="float:right;border-radius:50%; width:40px; margin-top:5% "></a>
+                        </div>
+                          </div>
+
                  <h3>Bookings</h3>
                  <hr style="color: #000;">
 
+                <!-- Add your php here -->
 
                  <br>
-                 <label><?php printf("%s %s ", $AvailDocName1["DFName"], $AvailDocName1["DLName"]); ?> </label> &nbsp | &nbsp <label><?php printf("%s (%s) ", $ForBooking1["ATime"], $ForBooking1["AConditions"]);?></label>
+                 <label>patient 1</label> &nbsp | &nbsp <label>10:30am</label>
                  <hr style="color: #000;">
                  <br>
-                 <label><?php printf("%s %s ", $AvailDocName2["DFName"], $AvailDocName2["DLName"]); ?></label> &nbsp | &nbsp <label><?php printf("%s (%s) ", $ForBooking2["ATime"], $ForBooking2["AConditions"]);?></label>
-				 <hr style="color: #000;">
-				 <br>
-                 <label><?php printf("%s %s ", $AvailDocName1["DFName"], $AvailDocName3["DLName"]); ?> </label> &nbsp | &nbsp <label><?php printf("%s (%s) ", $ForBooking3["ATime"], $ForBooking3["AConditions"]);?></label>
+                 <label>patient 2</label> &nbsp | &nbsp <label>11:30am</label>
                  <hr style="color: #000;">
-                 <br>
 
+                <!---->
                 
             </div>
             <div style="flex-basis: 1%;">
@@ -107,6 +124,33 @@
                     <br>
                     <br>
                 </div>
+            
+                <div class="container2">
+                    <div class="container2-box" style="height: 100%;"><img src="./img/appointment2.png" style="vertical-align: middle; padding-left: 50px; padding-right: 50px;"/>
+                        <div>
+                            <br>
+                            <p style="text-align: center;"><b class="big">Select an appointment date</b></p>
+                            <p class="normal" style="text-align: center;">Create an appointment by selecting the suitable date for you.<br>It can be anytime according to doctors' availability.<br>You can choose to have an appointment now or later for the available time.</p>
+                        </div>
+                    </div>
+                    <div class="container2-box" style="height: 100%;"><img src="./img/appointment3.png" style="vertical-align: middle; padding-left: 50px; padding-right: 50px;"/>
+                        <div>
+                            <br>
+                            <p style="text-align: center;"><b class="big">Confirm</b></p> 
+                            <p class="normal" style="text-align: center;">Complete your appointment by confirming your availability, preferred doctor and medical history.<br>Then proceed to billing and receive your confirmation email.</p>
+                        </div>
+                    </div>
+                    <div class="container2-box" style="height: 100%;"><img src="./img/appointment4.png" style="vertical-align: middle; padding-left: 50px; padding-right: 50px;"/>
+                        <div>
+                            <br>
+                            <p style="text-align: center;"><b class="big">Meet with your doctor online.</b></p> 
+                            <p class="normal" style="text-align: center;">Meet ours doctors through online video call system using your available devices to dicuss.<br>Medical certificate and drug prescription may be provided afterwards</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
                 </div>
                 </div>
 
@@ -125,6 +169,7 @@
    	  		<li><a href="about.php">About</a></li>
    	  		<li class="p1"><a href="contactUS.php">Contact</a></li>
    	  		
+        <br>
 
    	  	</ul>
    	  </div>
