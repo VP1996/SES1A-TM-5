@@ -1,9 +1,10 @@
 <?php 
 	include "server.php";
 	
+	
 	if(isset($_SESSION['EmailAddress']))
 	{
-		include "layouts/header2.php"; 
+		include "header2.php"; 
 		//include "server.php"; 
 		
 		$sql11="SELECT * FROM `chat`";
