@@ -3,7 +3,7 @@
 <html>
     <header>
         <title> DocBook </title>
-        <link rel="stylesheet" type="text/css" href= "./css/style.css">
+        <link rel="stylesheet" type="text/css" href= "./css/style1.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet"> 
     </header>
@@ -23,12 +23,11 @@
         <div class="navbar" >
             
           <a href="DocHomePage.php">Home</a> 
-          <a href="Chat.php">Chat</a> 
+          <a href="DoctorProfile.php">Profile</a> 
           <a href="DoctorAppointments.php">Bookings</a> 
           <a href="DoctorPrescriptions.php">Prescriptions</a> 
-          <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
+          <a href="chatpage.php">Chat</a> 
           <a href="#"> <i class="fa fa-bell" aria-hidden="true"></i> Notification</a>
-          <a style="float:right" href="DoctorProfile.php">Profile</a> 
             
         </div>
 
@@ -53,19 +52,19 @@
                       <th>Time</th>
                     </tr>
                     <tr>
-                      <td>Anna Wang</td>
-                      <td>Cold</td>
-                      <td>9:30 am</td>
+                      <td><?php printf("%s %s ", $ForBooking1["PatientFname"] , $ForBooking1["PatientLname"]);?> </td>
+                      <td><?php printf(" %s ", $ForBooking1["AConditions"]);?></td>
+                      <td><?php printf(" %s ", $ForBooking1["ATime"]);?> </td>
                     </tr>
                     <tr>
-                      <td>Dominic Walter</td>
-                      <td>heat stroke</td>
-                      <td>11:30 am</td>
+                      <td><?php printf("%s %s ", $ForBooking2["PatientFname"] , $ForBooking2["PatientLname"]);?> </td>
+                      <td><?php printf(" %s ", $ForBooking2["AConditions"]);?></td>
+                      <td><?php printf(" %s ", $ForBooking2["ATime"]);?> </td>
                     </tr>
                     <tr>
-                      <td>Nancy Cooper</td>
-                      <td>stomach pain</td>
-                      <td>10:15 am</td>
+                      <td><?php printf("%s %s ", $ForBooking3["PatientFname"] , $ForBooking3["PatientLname"]);?> </td>
+                      <td><?php printf(" %s ", $ForBooking3["AConditions"]);?></td>
+                      <td><?php printf(" %s ", $ForBooking3["ATime"]);?> </td>
                     </tr>
                   </table>
             </div>
@@ -92,10 +91,10 @@
                         <th>Contact Us</th>
                       </tr>
                       <tr>
-                        <td><a href="#">Email</a></td>
+                        <td><a href="contactUS.php">Email</a></td>
                       </tr>
                       <tr>
-                        <td><a href="#">Phone</a></td>
+                        <td><a href="contactUS.php">Phone</a></td>
                       </tr>
                     </table>
               </div>

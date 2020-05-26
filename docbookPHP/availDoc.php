@@ -7,12 +7,13 @@
    
      <!-- CSS here-->
 
-    <link rel="stylesheet" type="text/css" href= "./css/style.css" />
+    <link rel="stylesheet" type="text/css" href= "./css/style1.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet">  
     </head>
     
     <body>
+
 
     <div class="headerMenu">
         <div class="container2">
@@ -30,7 +31,7 @@
                     <br>
                     <br>
                     <br>
-                    <a href="#"><button class="loginbutton">Sign Out</button></a>
+                    <a href="index.php"><button class="loginbutton">Sign Out</button></a>
                     
                 </div>  
             </div>
@@ -38,13 +39,13 @@
     </div>
     
         <div class="navbar">
-          <a href="PatHomePage.php">Home</a> 
-          <a href="availDoc.php">Doctors</a> 
-          <a href="Bookings.php">Bookings</a> 
-          <a href="PatientPrescriptions.php">Prescriptions</a> 
-          <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
-          <a href="#"> <i class="fa fa-bell" aria-hidden="true"></i> Notification</a>
-          <a style="float:right" href="PatientProfile.php">Profile</a> 
+			<a href="PatHomePage.php">Home</a> 
+			<a href="PatientProfile.php">Profile</a> 
+			<a href="availDoc.php">Doctors</a> 
+			<a href="PatientPrescriptions.php">Prescriptions</a> 
+			<a href="chatpage.php">Chat</a> 
+			<a href="#"> <i class="fa fa-bell" aria-hidden="true"></i> Notification</a> 
+ 
         </div>
         <br>
         
@@ -56,26 +57,27 @@
                     <tr>
                       <th>Doctor</th>
                       <th>Location</th>
-                      <th>Time</th>
-                      <th>Availabilitiy</th>
+                      <th>Booking</th>
                     </tr>
                     <tr>
-                      <td>Alex Jones</td>
-                      <td>23 pitt street</td>
-                      <td>9am - 12pm</td>
+                      <td><?php printf("%s %s ", $AvailDocName1["DFName"], $AvailDocName1["DLName"]); ?> </td>
+                      <td><?php printf("%s ", $AvailDocName1["DLocation"]); ?> </td>
                       <td style="text-align: center;"><button class="button"><a href="appointmentBooking1.php">Appointment</a></button></td>
                     </tr>
                     <tr>
-                      <td>Rachekl Done</td>
-                      <td>54 george street</td>
-                      <td>9am - 12pm</td>
-                      <td style="text-align: center;">Busy</td>
+                      <td><?php printf("%s %s ", $AvailDocName2["DFName"], $AvailDocName2["DLName"]); ?> </td></td>
+                       <td><?php printf("%s ", $AvailDocName2["DLocation"]); ?> </td>
+                      <td style="text-align: center;"><button class="button"><a href="appointmentBooking2.php">Appointment</a></button></td>
                     </tr>
                     <tr>
-                      <td>Bob Nan</td>
-                      <td>uts building 5</td>
-                      <td>2pm -5pm</td>
-                      <td style="text-align: center;"><button class="button"><a href="appointmentBooking1.php">Appointment</a></button></td>
+                      <td><?php printf("%s %s ", $AvailDocName3["DFName"], $AvailDocName3["DLName"]); ?> </td></td>
+                       <td><?php printf("%s ", $AvailDocName3["DLocation"]); ?> </td>
+                      <td style="text-align: center;"><button class="button"><a href="appointmentBooking3.php">Appointment</a></button></td>
+                    </tr>
+					<tr>
+                      <td> </td></td>
+                       <td> </td>
+                      <td> </td>
                     </tr>
                   </table>
             </div>
@@ -98,10 +100,10 @@
                       <th><b style="font-size: 16px;">Contact Us</b></th>
                     </tr>
                     <tr>
-                      <td><a href="#">Email</a></td>
+                      <td><a href="contactUS.php">Email</a></td>
                     </tr>
                     <tr>
-                      <td><a href="#">Phone</a></td>
+                      <td><a href="contactUS.php">Phone</a></td>
                     </tr>
                   </table>
             </div>

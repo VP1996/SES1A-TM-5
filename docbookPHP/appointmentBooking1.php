@@ -3,9 +3,8 @@
 <html>
     <header>
         <title> DocBook </title>
-        <link rel="stylesheet" type="text/css" href= "./css/style.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet">  
+        <link rel="stylesheet" type="text/css" href= "./css/style1.css" />
+          
     </header>
     <body>
 
@@ -18,7 +17,7 @@
                 <div class="container2-box" style="flex-basis: 50%;">
                     <div id="wrapper">
                         <div class="logo">
-                            <a href="PatientHomePage.php">
+                            <a href="PatHomePage.php">
                             <img src="./img/docbook-logo.png"/>
                             </a>
                         </div>
@@ -37,13 +36,12 @@
 
         <div class="navbar" >
             
-            <a href="PatHomePage.php">Home</a> 
-            <a href="availDoc.php">Doctors</a> 
-            <a href="Bookings.php">Bookings</a> 
-            <a href="PatientPrescriptions.php">Prescriptions</a> 
-            <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
-            <a href="#"> <i class="fa fa-bell" aria-hidden="true"></i> Notification</a>
-            <a style="float:right" href="PatientProfile.php">Profile</a> 
+        <a href="PatHomePage.php">Home</a> 
+		<a href="PatientProfile.php">Profile</a> 
+        <a href="availDoc.php">Doctors</a> 
+        <a href="PatientPrescriptions.php">Prescriptions</a> 
+		<a href="chatpage.php">Chat</a> 
+        <a href="#"> <i class="fa fa-bell" aria-hidden="true"></i> Notification</a> 
             
             
         </div>
@@ -54,14 +52,14 @@
         </div>
 
                 <div >
-                    <h1 style="text-align: center;">Booking Appointment</h1>
+                    <h1 style="text-align: center;">Booking Appointment with <?php printf("%s %s ", $AvailDocName1["DFName"], $AvailDocName1["DLName"]); ?></h1>
                 </div>  
         <div>
             <br>
             <br>
             
         </div>
-        <form action="appointment3.php">
+        <form method="post" action="appointmentBooking1.php">
         <div class="container1">
             <div class="box1" style="flex: 1; background-color: rgba(209, 209, 209, 0.856); text-align: left; border-radius: 4px;">
                 <div class="container2" style="flex-flow: column;">
@@ -81,30 +79,22 @@
                     <div class="container2-box" style="text-align: center;">
                         <label for="condition" style="font-size: 18px; color: #000;">Condition of illness</label>
                         <div style="padding-left: 100px; padding-right: 100px;">
-                        <input type="text" id="condition" name="conditionofillness" placeholder="current condition.." required>
+                        <input type="text" id="condition" name="conditionofillness" placeholder="Current condition.." required>
                         </div>
                     </div>
                     <div class="container2-box" style="text-align: center;">
-                        <label for="time" style="font-size: 18px; color: #000;">Insert a perferred date for the appointment</label>
+                        <label for="date" style="font-size: 18px; color: #000;">Insert a perferred time and date for the appointment</label>
                         <div style="padding-left: 100px; padding-right: 100px;">
                             <br>
-                                <label for="time" style=" color: #000;">Date:</label>
-                                <input type="date" id="time" name="time" required>
+                                <label for="date" style=" color: #000;">Date/Time:</label>
+								<input type="text" id="date" name="AppDate" required>
                         </div>
                     </div>
+				
                     <br>
-                    <div class="container2-box" style="text-align: center;">
-                        <label for="file" style="font-size: 18px; color: #000;">Insert the previous medical histories. leave if not <br></label>
-                        <br>
-                        <div>
-                        <div style="padding-left: 100px;">
-                        <label for="myfile" style=" color: #000;">Select files:</label>
-                        <input type="file" id="myfile" name="myfile" style=" color: #000;" multiple><br><br>
-                        </div>
-                        </div>
-                    </div>
+                 
                     <div class="container2-box" style="padding-left: 200px; padding-right: 200px;">
-                        <input type="submit" value="Proceed to Billing">
+                        <input type="submit" name="App1_sub"  value="Submit appointment">
                     </div>
                     <br>
                 </div>
@@ -136,10 +126,10 @@
                       <th>Contact Us</th>
                     </tr>
                     <tr>
-                      <td><a href="#">Email</a></td>
+                      <td><a href="contactUS.php">Email</a></td>
                     </tr>
                     <tr>
-                      <td><a href="#">Phone</a></td>
+                      <td><a href="contactUS.php">Phone</a></td>
                     </tr>
                   </table>
             </div>

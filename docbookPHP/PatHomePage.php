@@ -1,7 +1,8 @@
-<?php include('server.php') ?>
+<?php include('server.php'); ?>
 <!DOCTYPE html>
 <html>
     <header>
+	
         <title> DocBook </title>
         <link rel="stylesheet" type="text/css" href= "./css/style.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -32,14 +33,12 @@
         <div class="navbar" >
             
         <a href="PatHomePage.php">Home</a> 
-          <a href="availDoc.php">Doctors</a> 
-          <a href="Bookings.php">Bookings</a> 
-          <a href="PatientPrescriptions.php">Prescriptions</a> 
-          <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
-          <a href="#"> <i class="fa fa-bell" aria-hidden="true"></i> Notification</a>
-          <a style="float:right" href="PatientProfile.php">Profile</a> 
-            
-            
+		<a href="PatientProfile.php">Profile</a> 
+        <a href="availDoc.php">Doctors</a> 
+        <a href="PatientPrescriptions.php">Prescriptions</a> 
+		<a href="chatpage.php">Chat</a> 
+        <a href="#"> <i class="fa fa-bell" aria-hidden="true"></i> Notification</a> 
+ 
         </div>
 
         <div>
@@ -52,16 +51,18 @@
                  <h3>Bookings</h3>
                  <hr style="color: #000;">
 
-                <!-- Add your php here -->
 
                  <br>
-                 <label>patient 1</label> &nbsp | &nbsp <label>10:30am</label>
+                 <label><?php printf("%s %s ", $AvailDocName1["DFName"], $AvailDocName1["DLName"]); ?> </label> &nbsp | &nbsp <label><?php printf("%s (%s) ", $ForBooking1["ATime"], $ForBooking1["AConditions"]);?></label>
                  <hr style="color: #000;">
                  <br>
-                 <label>patient 2</label> &nbsp | &nbsp <label>11:30am</label>
+                 <label><?php printf("%s %s ", $AvailDocName2["DFName"], $AvailDocName2["DLName"]); ?></label> &nbsp | &nbsp <label><?php printf("%s (%s) ", $ForBooking2["ATime"], $ForBooking2["AConditions"]);?></label>
+				 <hr style="color: #000;">
+				 <br>
+                 <label><?php printf("%s %s ", $AvailDocName1["DFName"], $AvailDocName3["DLName"]); ?> </label> &nbsp | &nbsp <label><?php printf("%s (%s) ", $ForBooking3["ATime"], $ForBooking3["AConditions"]);?></label>
                  <hr style="color: #000;">
+                 <br>
 
-                <!---->
                 
             </div>
             <div style="flex-basis: 1%;">
@@ -107,43 +108,7 @@
             </div>
         </div>
 
-        <div class="container1">
-            <div class="box1" style="flex: 70%; background-color: rgba(255, 255, 255, 0.767); border-radius: 8px;">
-                <br>
-                <div class="container2">
-                    <div class="container2-box" style="height: 100%;"><img src="./img/appointment1.png" style="vertical-align: middle; align-self: center; padding-left: 50px; padding-right: 50px;"/>
-                        <div>
-                            <br>
-                            <p style="text-align: center;"><b class="big">Step 1. Login or Register</b></p> 
-                            <p class="normal" style="text-align: center;">You will have to login first to make an appointment.<br>Don't have an account?<br>Register <a href="#">Now!</a></p>
-                        </div>
-                    </div>
-                    <div class="container2-box" style="height: 100%;"><img src="./img/appointment2.png" style="vertical-align: middle; padding-left: 50px; padding-right: 50px;"/>
-                        <div>
-                            <br>
-                            <p style="text-align: center;"><b class="big">Step 2. Select an appointment date</b></p>
-                            <p class="normal" style="text-align: center;">Create an appointment by selecting the suitable date for you.<br>It can be anytime according to doctors' availability.<br>You can choose to have an appointment now or later for the available time.</p>
-                        </div>
-                    </div>
-                    <div class="container2-box" style="height: 100%;"><img src="./img/appointment3.png" style="vertical-align: middle; padding-left: 50px; padding-right: 50px;"/>
-                        <div>
-                            <br>
-                            <p style="text-align: center;"><b class="big">Step 3. Confirm</b></p> 
-                            <p class="normal" style="text-align: center;">Complete your appointment by confirming your availability, preferred doctor and medical history.<br>Then proceed to billing and receive your confirmation email.</p>
-                        </div>
-                    </div>
-                    <div class="container2-box" style="height: 100%;"><img src="./img/appointment4.png" style="vertical-align: middle; padding-left: 50px; padding-right: 50px;"/>
-                        <div>
-                            <br>
-                            <p style="text-align: center;"><b class="big">Step 4. Meet with your doctor online.</b></p> 
-                            <p class="normal" style="text-align: center;">Meet ours doctors through online video call system using your available devices to dicuss.<br>Medical certificate and drug prescription may be provided afterwards</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="box2" style="flex-basis: 30%;"></div>
-            <div class="box3" style="flex-basis: 30%;"></div>
-        </div>
+        
         <br>
 
         <div class="footer" style="position: relative;">
@@ -157,10 +122,10 @@
                       <th><b style="font-size: 16px;">Contact Us</b></th>
                     </tr>
                     <tr>
-                      <td><a href="#">Email</a></td>
+                      <td><a href="contactUS.php">Email</a></td>
                     </tr>
                     <tr>
-                      <td><a href="#">Phone</a></td>
+                      <td><a href="contactUS.php">Phone</a></td>
                     </tr>
                   </table>
             </div>
