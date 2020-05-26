@@ -1,4 +1,5 @@
-<?php include('server.php') ?>
+<?php include('server.php')
+ ?>
 <!DOCTYPE html>
 <html lang="en">
     
@@ -55,7 +56,7 @@
         <div class="navbar">
             <a href="index.php">Home</a>
             <a href="about.php">About</a>
-            <a href="contactUS.html">Contact</a>
+            <a href="contactUS.php">Contact</a>
         </div>
         <!--
         <div >
@@ -178,10 +179,10 @@
                   <th>Contact Us</th>
                 </tr>
                 <tr>
-                  <td><a href="#">Email</a></td>
+                  <td><a href="contactUS.php">Email</a></td>
                 </tr>
                 <tr>
-                  <td><a href="#">Phone</a></td>
+                  <td><a href="contactUS.php">Phone</a></td>
                 </tr>
               </table>
         </div>

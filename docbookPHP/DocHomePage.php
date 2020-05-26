@@ -37,14 +37,11 @@
         <div class="navbar" >
             
             <a href="DocHomePage.php">Home</a> 
-            <a href="Chat.php">Chat</a> 
+            <a href="DoctorProfile.php">Profile</a> 
             <a href="DoctorAppointments.php">Bookings</a> 
             <a href="DoctorPrescriptions.php">Prescriptions</a> 
-            <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
+            <a href="chatpage.php">Chat</a> 
             <a href="#"> <i class="fa fa-bell" aria-hidden="true"></i> Notification</a>
-            <a style="float:right" href="DoctorProfile.php">Profile</a> 
-            
-            
         </div>
 
         <div>
@@ -67,7 +64,7 @@
                         <div class="cl_plan">
                         
                         <div class="cl_title;">Today</div>
-                        <div class="cl_copy">28th  May  2020</div>
+                        <div class="cl_copy">26th  May  2020</div>
                         <a href="#"> <img src="./img/adddate.png" alt="add" style="float:right;border-radius:50%; width:40px; margin-top:5% "></a>
                         </div>
                           </div>
@@ -76,50 +73,37 @@
                         <p class="header_copy">Upcoming Events</p>
                         <div class="event_item">
                           <div class="dot dot_active"></div>
-                          <div class="time">10:30 am with Sam Chuck </div>
+                          <div class="time"> <?php printf("%s with %s  %s ", $ForBooking1["ATime"], $ForBooking1["PatientFname"] , $ForBooking1["PatientLname"]);?>  </div>
                           <a href="#"><img src="./img/male.png" alt="avatar" style="float:right;border-radius:50%; width:40px; border-style:solid; border-width:thin"></a>
-                          <div class="desc">Monthly Checkup</div>
+                          <div class="desc"><?php printf(" %s ", $ForBooking1["AConditions"]);?></div>
                         </div>
                         <div class="event_item">
                           <div class="dot"></div>
-                          <div class="time">12:00 pm with Bob Fleeter</div>
+                          <div class="time"><?php printf("%s with %s %s ", $ForBooking2["ATime"], $ForBooking2["PatientFname"] , $ForBooking2["PatientLname"]);?> </div>
                           <a href="#"><img src="./img/male.png" alt="avatar" style="float:right;border-radius:50%; width:40px; border-style:solid; border-width:thin"></a>
-                          <div class="desc">Severe Headache</div>
+                          <div class="desc"><?php printf(" %s ", $ForBooking2["AConditions"]);?></div>
                         </div>
                         <div class="event_item">
                           <div class="dot"></div>
-                          <div class="time">13:00 pm</div>
-                          <a href="#"><img src="./img/female.png" alt="avatar" style="float:right;border-radius:50%; width:40px; border-style:solid; border-width:thin"></a>
-                          <div class="desc"> description here </div>
-                        </div>
-                        <div class="event_item">
-                          <div class="dot"></div>
-                          <div class="time">14:30 am</div>
-                          <a href="#"><img src="./img/female.png" alt="avatar" style="float:right;border-radius:50%; width:40px; border-style:solid; border-width:thin"></a>
-                          <div class="desc"> description here </div>
-                        </div>
-                        <div class="event_item">
-                          <div class="dot"></div>
-                          <div class="time">15:30 am</div>
+                          <div class="time"> <?php printf("%s with %s %s ", $ForBooking3["ATime"], $ForBooking3["PatientFname"] , $ForBooking3["PatientLname"]);?> </div>
                           <a href="#"><img src="./img/male.png" alt="avatar" style="float:right;border-radius:50%; width:40px; border-style:solid; border-width:thin"></a>
-                          <div class="desc">description here</div>
+                          <div class="desc"> <?php printf(" %s ", $ForBooking3["AConditions"]);?>  </div>
                         </div>
-                      </div>
+						
+						
            
             </div>
             <div style="flex-basis: 1%;">
             </div>
             <div style="flex-basis: 75%; background-color: rgba(255, 255, 255, 0.774); padding: 1%; margin-right:4%">
-                <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Australia%2FSydney&amp;src=MjNwdDU3MTc1YnJtZTVlaTA3M2pwZzhva29AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23009688" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Australia%2FSydney&amp;src=MjNwdDU3MTc1YnJtZTVlaTA3M2pwZzhva29AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23009688" style="border:solid 1px #777" width="370" height="300" frameborder="0" scrolling="no"></iframe>
             </div>
         </div>
     </div>
+	
+	
 
-    <div class="container1" style="padding: 1%; margin-left:4%; margin-right:3.8%;  ">
-        <div style="flex-basis: 100%; background-color: rgba(255, 255, 255, 0.9); padding: 1%; overflow: auto;">
-                <br>
-               
-                    </div>
+    
                 </div>
             </div>
             <div class="box2" style="flex-basis: 30%;"></div>
@@ -140,10 +124,10 @@
                       <th>Contact Us</th>
                     </tr>
                     <tr>
-                      <td><a href="#">Email</a></td>
+                      <td><a href="contactUS.php">Email</a></td>
                     </tr>
                     <tr>
-                      <td><a href="#">Phone</a></td>
+                      <td><a href="contactUS.php">Phone</a></td>
                     </tr>
                   </table>
             </div>

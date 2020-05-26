@@ -81,10 +81,10 @@
                   <th>Contact Us</th>
                 </tr>
                 <tr>
-                  <td><a href="#">Email</a></td>
+                  <td><a href="contactUS.php">Email</a></td>
                 </tr>
                 <tr>
-                  <td><a href="#">Phone</a></td>
+                  <td><a href="contactUS.php">Phone</a></td>
                 </tr>
               </table>
         </div>

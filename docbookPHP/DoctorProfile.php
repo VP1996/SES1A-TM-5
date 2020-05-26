@@ -4,14 +4,12 @@
     
     <head>
     <title>Profile</title>
-   
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet">   
+     
     <link rel="stylesheet" type="text/css" href= "./css/style.css" />
     <script src="./js/Slideshow.js" type="text/javascript"></script>
     <body>
     
-
+    <form action = "DoctorProfile.php" method = "post"> 
     <div id="page-container">
         <div id="content-wrap">
 
@@ -39,70 +37,72 @@
 
         <div class="navbar">
             <a href="DocHomePage.php">Home</a> 
-            <a href="Chat.php">Chat</a> 
+            <a href="DoctorProfile.php">Profile</a> 
             <a href="DoctorAppointments.php">Bookings</a> 
             <a href="DoctorPrescriptions.php">Prescriptions</a> 
-            <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
+            <a href="chatpage.php">Chat</a> 
             <a href="#"> <i class="fa fa-bell" aria-hidden="true"></i> Notification</a>
-            <a style="float:right" href="DoctorProfile.php">Profile</a> 
          </div> 
    
    
-         <div class="form" style="height:780px; width:600px; padding:42px">
+         <div class="form" style="height:1000px; width:600px; padding:42px">
 
             <img style="margin-left:33%; margin-bottom:20px;"   src="./img/download.png" aria-placeholder="Tim Henson">
-            <h1 style="font-size:28px;margin-bottom:20px;" >Your Profile</h1>
-          
+            <h1 style="font-size:28px;margin-bottom:20px;" >Update Your Profile</h1>
+            <?php include('errors.php'); ?>
 
             <div class="input-row">
-         
-            <div class="input-group">
-            <label>Age:</label>
-            <input type="text" >
-            
-            <?php echo $profile_data['age'] ?>
-            
-        </div>
-            <div class="input-group">
+				<div class="input-group">
+				<label>First Name:</label>
+				<input type ="text" name="FirstName" class="input-field" required />
+				</div>
+			    <div class="input-group">
+                <label>Last Name:</label>
+                <input type ="text" name="LastName" class="input-field" required />
+                </div>
+                </div>
+            <div class="input-row">
+                <div class="input-group">
+                <label>Age:</label>
+                <input type ="text" name="Age" class="input-field"  required />
+                </div>
+                <div class="input-group">
                 <label>Gender:</label>
-                <input type="text" >
+                <input type ="text" name="Gender" class="input-field" required />
                 </div>
                 </div>
-    
-                <div class="input-row">
+            <div class="input-row">
                 <div class="input-group">
-                <label>Location:</label>
-                <input type="text" >
+                <label>Old Email:</label>
+                <input type="text" name="OldEmail" class="input-field" required /><br>
                 </div>
-    
-    
-                <div class="input-group">
-                <label>Email:</label>
-                <input type="text" >
-                </div>
-                </div>
-    
-    
-                <div class="input-row">
-                <div class="input-group">
-                <label>Password:</label>
-                <input type="text" >
-                </div>
-            
                <div class="input-group">
-                <label>Doctor ID:</label>
-               <input type="text" >
+                <label>New Email:</label>
+               <input type="text" name="NewEmail" class="input-field" required /><br>
                </div>  
                </div>
-            
-                <div class="input-row">
+			 <div class="input-row">
                <div class="input-group">
-                <label>Phone Number</label>
-               <input type="text" >
+                <label>Location</label>
+               <input type="text" name="Location" class="input-field" required /><br>
+               </div>
+			   <div class="input-group">
+                <label>Phone</label>
+               <input type="text" name="Phone" class="input-field" required /><br>
+               </div>
+             </div> 
+            <div class="input-row">
+               <div class="input-group">
+                <label>Password</label>
+               <input type="text" name="password" class="input-field" required /><br>
+               </div>
+			   <div class="input-group">
+                <label>Repeat Password</label>
+               <input type="text" name="password2" class="input-field" required /><br>
                </div>
              </div>      
-                
-        <button type="submit" class="submit-btn">Update</button>
+ 
+        <input type="submit" class="btn"  name="Update_Dsub"  value="Update" placeholder="Update" />
         </div>
     </div>
 </div>
@@ -121,10 +121,10 @@
                   <th>Contact Us</th>
                 </tr>
                 <tr>
-                  <td><a href="#">Email</a></td>
+                  <td><a href="contactUS.php">Email</a></td>
                 </tr>
                 <tr>
-                  <td><a href="#">Phone</a></td>
+                  <td><a href="contactUS.php">Phone</a></td>
                 </tr>
               </table>
         </div>

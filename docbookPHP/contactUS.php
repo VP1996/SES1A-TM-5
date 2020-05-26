@@ -4,8 +4,7 @@
     
     <head>
     <title>Contact Us</title>
-   
-    
+       
     <link rel="stylesheet" type="text/css" href= "./css/style.css" />
     <script src="./js/Slideshow.js" type="text/javascript"></script>
     <body>
@@ -29,8 +28,6 @@
                         <br>
                         <br>
                         <br>
-                        <a href="login.php"><button class="loginbutton">Login</button></a>
-                        <a href="register.php"><button class="loginbutton">Register</button></a>
                     </div>  
                 </div>
             </div>
@@ -83,15 +80,19 @@
                       <th>Contact Us</th>
                     </tr>
                     <tr>
-                      <td><a href="#">Email</a></td>
+                      <td><a href="contactUS.php">Email</a></td>
                     </tr>
                     <tr>
-                      <td><a href="#">Phone</a></td>
+                      <td><a href="contactUS.php">Phone</a></td>
                     </tr>
                   </table>
             </div>
-
-        </html>
                   
 
             
+    
+</html>
+  
+  
+  
+   
