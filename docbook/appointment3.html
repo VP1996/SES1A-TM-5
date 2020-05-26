@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title> DocBook </title>
+        <link rel="stylesheet" type="text/css" href= "./css/style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet">  
+    </header>
+    <body>
+        
+    <div id="page-container">
+        <div id="content-wrap">
+
+        <div class="headerMenu">
+            <div class="container2">
+                <div class="container2-box" style="flex-basis: 50%;">
+                    <div id="wrapper">
+                        <div class="logo">
+                            <a href="PatientHomePage.html">
+                            <img src="./img/docbook-logo.png"/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container2-box" style="flex-basis: 50%;">
+                    <div style="text-align: right; padding-right: 10px;">
+                        <br>
+                        <br>
+                        <br>
+                        <a href="#"><button class="loginbutton">Sign Out</button></a>
+                    </div>  
+                </div>
+            </div>
+        </div>
+
+        <div class="navbar" >
+            
+            <a href="PatientHomePage.html">Home</a> 
+            <a href="Doctors.html">Doctors</a> 
+            <a href="Bookings.html">Bookings</a> 
+            <a href="Prescriptions.html">Prescriptions</a> 
+            <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
+            <a href="#"> <i class="fa fa-bell" aria-hidden="true"></i> Notification</a>
+            <a style="float:right" href="PatientProfile.html">Profile</a> 
+        </div>
+
+        <div>
+            <br>
+           
+        </div>
+
+                <br>  
+        <div>
+            <br>
+            <br>
+            
+        </div>
+        <form action="appointment3.html">
+        <div class="container1">
+            <div class="box1" style="flex: 1.5;background-color: rgba(255, 255, 255, 0.562); border-radius: 8px;">
+                <div class="container1">
+                    <div class="box1" style="order: 1; flex: 1; padding: 20px;">
+                        <h3>Billing Address</h3>
+                        <label for="name" >Full Name</label>
+                        <input type="text" id="name" name="firstname" required>
+                        <label for="email" >Email</label>
+                        <input type="text" id="email" name="email" required>
+                        <label for="adr" >Address</label>
+                        <input type="text" id="adr" name="address" required>
+                        <label for="city" >City</label>
+                        <input type="text" id="city" name="city" required>
+                        <div class="container2">
+                            <div class="container2-box" style="flex-basis: 50%; padding: 10px;">
+                              <label for="state" >State</label>
+                              <input type="text" id="state" name="state" required>
+                            </div>
+                            <div class="container2-box" style="flex-basis: 50%; padding: 10px;">
+                              <label for="zip" >Zip</label>
+                              <input type="text" id="zip" name="zip" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box2" style="order: 2; flex: 1; padding: 20px;">
+                        <h3>Payment</h3>
+                        <label for="fname">Accepted Cards</label>
+                        <div style="margin-bottom: 20px; margin-top: 20px; padding: 7px 0;">
+                        <label class="normal" style="padding: 5px; border: 1px solid #000; border-radius: 6px;">
+                            &nbsp <b style="font-size: 12px;" >VISA | MASTERCARD | AMEX | AMERICAN EXPRESS</b>&nbsp
+                        </label>
+                        </div>
+                        <label for="cname">Name on Card</label>
+                        <input type="text" id="cname" name="cardname" required>
+                        <label for="ccnum">Credit card number</label>
+                        <input type="text" id="ccnum" name="cardnumber" placeholder="0000-0000-0000-0000" required>
+                        <label for="expmonth">Exp Month</label>
+                        <input type="text" id="expmonth" name="expmonth" required>
+                        <div class="container2">
+                            <div class="container2-box" style="flex-basis: 50%; padding: 10px;">
+                                <label for="expyear">Exp Year</label>
+                                <input type="text" id="expyear" name="expyear" required>
+                            </div>
+                            <div class="container2-box" style="flex-basis: 50%; padding: 10px;">
+                                <label for="cvv">CVV</label>
+                                <input type="text" id="cvv" name="cvv" required>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                <label>
+                <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+                </label>
+                <div class="container2-box" style="padding-left: 200px; padding-right: 200px;">
+                <input type="submit" value="Continue to checkout">
+                </div>
+            </div>
+            
+            <div class="box2">
+
+            </div>
+            <div class="box3">
+
+            </div>
+        </div>
+        </form>
+        <br>
+        <br>
+        <br>
+        <br>
+
+    </div>
+    </div>
+    
+
+        <div class="footer">
+            
+
+            <div>
+                <p style="font-size: 16px; color: #000; font-family: sans-serif; padding-left: 100px;"> Copyright &copy; 2020 DocBook </p>
+            </div>
+            <br>
+            <div style="padding-left: 100px;">
+                <table id="contact">
+                    <tr>
+                      <th>Contact Us</th>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Email</a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Phone</a></td>
+                    </tr>
+                  </table>
+            </div>
+        
+    
+        
+    
+        </body>
+        
+    </html>
