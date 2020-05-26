@@ -4,6 +4,8 @@
     <header>
         <title> DocBook </title>
         <link rel="stylesheet" type="text/css" href= "./css/style1.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="./css/footer.css">
           
     </header>
     <body>
@@ -41,7 +43,7 @@
         <a href="availDoc.php">Doctors</a> 
         <a href="PatientPrescriptions.php">Prescriptions</a> 
 		<a href="chatpage.php">Chat</a> 
-        <a href="#"> <i class="fa fa-bell" aria-hidden="true"></i> Notification</a> 
+        
             
             
         </div>
@@ -112,31 +114,48 @@
         </div>
         </div>
         </div>
+        <div class="w3hubs-footer">
+   	  
+   	  <div class="w3hubs-icon">
+   	  	<ul>
+   	  		<li><a href="#" target="black"><i class="fa fa-facebook"></i></a></li>
+   	  		<li><a href="#" target="black"><i class="fa fa-twitter"></i></a></li>
+   	  		<li><a href="#" target="black"><i class="fa fa-youtube-play"></i></a></li>
+   	  	</ul>
+   	  </div>
+   	  <div class="w3hubs-nav">
+   	  	<ul>
+   	  		<li><a href="PatHomePage.php">Home</a></li>
+   	  		<li><a href="about.php">About</a></li>
+   	  		<li class="p1"><a href="contactUS.php">Contact</a></li>
+   	  		
 
-        <div class="footer">
-            
+   	  	</ul>
+   	  </div>
+   	  <div class="w3hubs-nav1">
+   	  	<ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">T&C's</a></li>         
+   	  		<li><a href="https://github.com/VP1996/SES1A-TM-5">Our GitHub</a></li>
+   	  		<li><a href="https://trello.com/b/IACoN3uK/docbook-development">Our Trello</a></li>
+   	  		
+   	  		
+   	  		
+   	  	</ul>
+   	  </div>
 
-            <div>
-                <p style="font-size: 16px; color: #000; font-family: sans-serif; padding-left: 100px;"> Copyright &copy; 2020 DocBook </p>
-            </div>
-            <br>
-            <div style="padding-left: 100px;">
-                <table id="contact">
-                    <tr>
-                      <th>Contact Us</th>
-                    </tr>
-                    <tr>
-                      <td><a href="contactUS.php">Email</a></td>
-                    </tr>
-                    <tr>
-                      <td><a href="contactUS.php">Phone</a></td>
-                    </tr>
-                  </table>
-            </div>
-        
-    
-        
-    
-        </body>
-        
-    </html>
+   	  <div class="w3hubs-nav2">
+   	  	<ul>
+   	  		
+   	  		<li><a href="#" title="To Top"><i class="fa fa-chevron-down"></i></a></li>
+   	  		
+   	  	</ul>
+   	  </div>
+   </div>
+
+   <div class="footer-end">
+   	  <p>Copyright &copy; 2020 DocBook </p>
+   </div>
+</body>
+</html>
+   
