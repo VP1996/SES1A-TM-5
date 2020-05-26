@@ -59,9 +59,9 @@
                   <br>
                   <table id="general">
                       <tr>
-                        <th>Patient</th>
+                        <th>Doctor</th>
                         <th>Prescription</th>
-                        <th>Date</th>
+                        <th>Date issued</th>
                         <th>PDF</th>
                       </tr>
                       <tr>
@@ -71,12 +71,12 @@
                               <img src="./img/female.png" alt="avatar" style=" border-radius:50%; width:35px; border-style:solid; border-width:thin"> 
                             </div>
                             <div style="flex-basis:60%">
-                              <p style="text-align:left; color: #000; font-size: 20px;">Anna Wang</p> 
+                              <p style="text-align:left; color: #000; font-size: 20px;">Rachekl Done</p> 
                             </div>
                           </div>
                         </td>
                         <td><p style="text-align:left; color: #000; font-size: 20px;">Panadol</p></td>
-                        <td>11/3/2020</td>
+                        <td>12/3/2020</td>
                         <td><a href="#"><img style="width:50px" src="./img/pdf.png"></a></td>
                       </tr>
                       <tr>
@@ -86,27 +86,27 @@
                               <img src="./img/male.png" alt="avatar" style=" border-radius:50%; width:35px; border-style:solid; border-width:thin"> 
                             </div>
                             <div style="flex-basis:60%">
-                              <p style="text-align:left; color: #000; font-size: 20px;">Dominic Walter</p> 
+                              <p style="text-align:left; color: #000; font-size: 20px;">Jeff Boses</p> 
                             </div>
                           </div>  
                         </td>
                         <td><p style="text-align:left; color: #000; font-size: 20px;">Aspirin</p></td>
-                        <td>17/3/2020</td>
+                        <td>14/4/2020</td>
                         <td><a href="#"><img style="width:50px" src="./img/pdf.png"></a></td>
                       </tr>
                       <tr>
                         <td>
                           <div class="container1">
                             <div style="flex-basis:40%">
-                              <img src="./img/female.png" alt="avatar" style=" border-radius:50%; width:35px; border-style:solid; border-width:thin"> 
+                              <img src="./img/male.png" alt="avatar" style=" border-radius:50%; width:35px; border-style:solid; border-width:thin"> 
                             </div>
                             <div style="flex-basis:60%">
-                              <p style="text-align:left; color: #000; font-size: 20px;">Nancy Cooper</p> 
+                              <p style="text-align:left; color: #000; font-size: 20px;">Bob Nan</p> 
                             </div>
                           </div>
                         </td>
                         <td><p style="text-align:left; color: #000; font-size: 20px;">Buscopan</p></td>
-                        <td>3/4/2020</td>
+                        <td>4/5/2020</td>
                         <td><a href="#"><img style="width:50px" src="./img/pdf.png"></a></td>
                       </tr>
                     </table>
