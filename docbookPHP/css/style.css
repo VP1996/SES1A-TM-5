@@ -554,6 +554,7 @@ p.normal {
   line-height: 1.5;
   color: #000;
   font-size: 14px;
+  word-wrap: break-word;
 }
 
 b.big {
