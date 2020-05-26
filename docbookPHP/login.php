@@ -74,9 +74,11 @@
     <br>
     <br>
     <br>
+    <div class="container2-box" style="padding-left: 100px; padding-right: 100px;">
         <input type="submit" class= "submit-btn" name="Rsubmit" value="Login"placeholder="Login">
+    </div>
     <br>
-        <p1 style="font-size: 14px;font-family: sans-serif; float:right"> Forgot your Password?  Click <a href="#"><b>HERE</b></a>!</p1>
+        <p1 style="font-size: 14px;font-family: sans-serif; float:right"> Forgot your Password?  Click <a href="Forgotpw.php"><b>HERE</b></a>!</p1>
    
     
         </form>
