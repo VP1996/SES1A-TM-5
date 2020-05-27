@@ -476,11 +476,7 @@ box-shadow: 0px 0px 1px #777;
   }
   
 /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
-  @media screen and (max-width: 500px) {
-    .navbar a {
-    float: none;
-      display: inline;
-    }
+ 
 
 /* float*/
     .column.side, .column.middle {
@@ -489,12 +485,6 @@ box-shadow: 0px 0px 1px #777;
     
 /* Chat System*/
 
-
-  .chatBox {
-    position: relative;
-    top: 475px;
-    
-    
     
     
     }
@@ -511,4 +501,8 @@ box-shadow: 0px 0px 1px #777;
     bottom: 0;
   }
     
-  }
+  @media screen and (max-width: 500px) {
+    .navbar a {
+    float: none;
+      display: inline;
+    }

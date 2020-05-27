@@ -87,23 +87,4 @@
 </div>
 </div>
 
-<div class="footer">
-            
-
-    <div>
-        <p style="font-size: 16px; color: #000; font-family: sans-serif; padding-left: 100px;"> Copyright &copy; 2020 DocBook </p>
-    </div>
-    <br>
-    <div style="padding-left: 100px;">
-        <table id="contact">
-            <tr>
-              <th>Contact Us</th>
-            </tr>
-            <tr>
-              <td><a href="#">Email</a></td>
-            </tr>
-            <tr>
-              <td><a href="#">Phone</a></td>
-            </tr>
-          </table>
-    </div>
+</div>
