@@ -36,11 +36,13 @@
             </div>
         </div>
 
-        <a href="PatHomePage.php">Home</a> 
+        <div class="navbar">
+            <a href="PatHomePage.php">Home</a> 
 			<a href="PatientProfile.php">Profile</a> 
 			<a href="availDoc.php">Doctors</a> 
 			<a href="PatientPrescriptions.php">Prescriptions</a> 
 			<a href="chatpage.php">Chat</a> 
+			<a href="#"> <i class="fa fa-bell" aria-hidden="true"></i> Notification</a> 
 		
          </div> 
    

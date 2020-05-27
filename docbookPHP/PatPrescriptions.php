@@ -5,16 +5,12 @@
         <title> Prescriptions </title>
         <link rel="stylesheet" type="text/css" href= "./css/style.css">
     </header>
-    <div id="page-container">
-      <div id="content-wrap">
-    <body>
-
     <div class="headerMenu">
         <div class="container2">
             <div class="container2-box" style="flex-basis: 50%;">
                 <div id="wrapper">
                     <div class="logo">
-                        <a href="DocHomePage.php">
+                        <a href="PatHomePage.php">
                         <img src="./img/docbook-logo.png"/>
                         </a>
                     </div>
@@ -30,16 +26,13 @@
             </div>
         </div>
     </div>
-
         <div class="navbar" >
             
-          <a href="doctorhomepage.html">Home</a> 
-          <a href="Chat.html">Chat</a> 
-          <a href="DoctorAppointments.html">Bookings</a> 
-          <a href="DoctorPrescriptions.html">Prescriptions</a> 
-          <a style="float:right" href="DoctorProfile.html">Profile</a> 
-            
-            
+        <a href="PatHomePage.php">Home</a> 
+			<a href="PatientProfile.php">Profile</a> 
+			<a href="availDoc.php">Doctors</a> 
+			<a href="PatientPrescriptions.php">Prescriptions</a> 
+			<a href="chatpage.php">Chat</a> 
         </div>
 
         <div>
