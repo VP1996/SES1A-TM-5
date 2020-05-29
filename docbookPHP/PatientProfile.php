@@ -5,7 +5,7 @@
     <head>
     <title>DocBook</title>
     
-    <link rel="stylesheet" type="text/css" href= "./css/style.css" />
+    <link rel="stylesheet" type="text/css" href= "./css/style1.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="./css/footer.css">
     <script src="./js/Slideshow.js" type="text/javascript"></script>
@@ -35,15 +35,18 @@
                 </div>
             </div>
         </div>
-
-        <a href="PatHomePage.php">Home</a> 
-			<a href="PatientProfile.php">Profile</a> 
-			<a href="availDoc.php">Doctors</a> 
-			<a href="PatientPrescriptions.php">Prescriptions</a> 
-			<a href="chatpage.php">Chat</a> 
-		
-         </div> 
-   
+        <div class="navbar" >
+            
+            <a href="PatHomePage.php">Home</a> 
+                <a href="PatientProfile.php">Profile</a> 
+                <a href="availDoc.php">Doctors</a> 
+                <a href="PatientPrescriptions.php">Prescriptions</a> 
+                <a href="chatpage.php">Chat</a> 
+                
+                
+            </div>
+    
+            <div>
    
          <div class="form" style="height:1000px; width:600px; padding:42px">
 
