@@ -1,39 +1,49 @@
 <?php include('server.php') ?>
-<!DOCTYPE html>
 <html>
     <header>
         <title> DocBook </title>
-        <link rel="stylesheet" type="text/css" href= "./css/style.css">
+        <link rel="stylesheet" type="text/css" href= "./css/style.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="./css/footer.css"> 
+        <link rel="stylesheet" type="text/css" href="./css/footer.css">
+        <link rel="stylesheet" type="text/css" href= "./css/docleftbar.css" />
+        
         
     </header>
+
     <div id="page-container">
-      <div id="content-wrap">
-    <body>
-  
-        <div class="headerMenu">
-            <div id="wrapper">
-                <div class="logo">
-                    <a href="DocHomePage.php">
-                    <img src="./img/docbook-logo.png"/>
-                    </a>
+        <div id="content-wrap">
+
+    <div class="headerMenu">
+        <div class="container2">
+            <div class="container2-box" style="flex-basis: 50%;">
+                <div id="wrapper">
+                    <div class="logo">
+                        <a href="DocHomePage.php">
+                        <img src="./img/docbook-logo.png"/>
+                        </a>
+                    </div>
                 </div>
             </div>
+            <div class="container2-box" style="flex-basis: 50%;">
+                <div style="text-align: right; padding-right: 10px;">
+                    <br>
+                    <br>
+                    <br>
+                    <a href="index.php"><button class="loginbutton">Sign Out</button></a>
+                </div>  
+            </div>
         </div>
+    </div>
 
         <div class="navbar" >
             
-          <a href="DocHomePage.php">Home</a> 
-          <a href="DoctorProfile.php">Profile</a> 
-          <a href="DoctorAppointments.php">Bookings</a> 
-          <a href="DoctorPrescriptions.php">Prescriptions</a> 
-          <a href="chatpage.php">Chat</a> 
-      
-            
+            <a href="DocHomePage.php">Home</a> 
+            <a href="DoctorProfile.php">Profile</a> 
+            <a href="DoctorAppointments.php">Bookings</a> 
+            <a href="DoctorPrescriptions.php">Prescriptions</a> 
+            <a href="chatpage.php">Chat</a> 
+          
         </div>
-
-        <div>
             <br>
            
         </div>
