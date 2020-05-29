@@ -29,7 +29,7 @@
            <a href="PatHomePage.php">Home</a> 
 		<a href="PatientProfile.php">Profile</a> 
         <a href="availDoc.php">Doctors</a> 
-        <a href="PatientPrescriptions.php">Prescriptions</a> 
+        <a href="PatPrescriptions.php">Prescriptions</a> 
 		<a href="chatpage.php">Chat</a> 
 
             
@@ -46,9 +46,14 @@
             <br>
             
         </div>
-        <div class="container1">
-            <div class="box1" style="flex: 4; background-color: rgba(255, 255, 255, 0.418); border-radius: 20px; padding: 10px;">
+        <div class="container1" style="height: 600px;" >
+            <div class="box1" style="flex: 4; background-color: rgba(255, 255, 255, 0.9); padding: 10px;">
                 <br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
                 <h1 style="color:#000; margin-bottom: 20px;text-align: center;"> Thank you for your booking</h1>
                 <br>
                 <h3 style="text-align: center;">Your appointment is being processed. </h3>

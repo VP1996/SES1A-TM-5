@@ -4,7 +4,8 @@
     <header>
         <title> DocBook </title>
         <link rel="stylesheet" type="text/css" href= "./css/docleftbar.css" />
-        <link rel="stylesheet" type="text/css" href= "./css/style.css" />        
+        <link rel="stylesheet" type="text/css" href= "./css/style.css" />  
+        <script src="./js/Slideshow.js" type="text/javascript"></script>		
         <link rel="stylesheet" type="text/css" href="./css/footer.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet">  
@@ -70,16 +71,16 @@
                  <h3>Bookings</h3>
                  <hr style="color: #000;">
 
-                <!-- Add your php here -->
-
-                 <br>
-                 <label>patient 1</label> &nbsp | &nbsp <label>10:30am</label>
+                <br>
+                 <label><?php printf("%s %s ", $AvailDocName1["DFName"], $AvailDocName1["DLName"]); ?> </label> &nbsp | &nbsp <label><?php printf("%s (%s) ", $ForBooking1["ATime"], $ForBooking1["AConditions"]);?></label>
                  <hr style="color: #000;">
                  <br>
-                 <label>patient 2</label> &nbsp | &nbsp <label>11:30am</label>
+                 <label><?php printf("%s %s ", $AvailDocName2["DFName"], $AvailDocName2["DLName"]); ?></label> &nbsp | &nbsp <label><?php printf("%s (%s) ", $ForBooking2["ATime"], $ForBooking2["AConditions"]);?></label>
+				 <hr style="color: #000;">
+				 <br>
+                 <label><?php printf("%s %s ", $AvailDocName3["DFName"], $AvailDocName3["DLName"]); ?> </label> &nbsp | &nbsp <label><?php printf("%s (%s) ", $ForBooking3["ATime"], $ForBooking3["AConditions"]);?></label>
                  <hr style="color: #000;">
-
-                <!---->
+                 <br>
                 
             </div>
             <div style="flex-basis: 1%;">

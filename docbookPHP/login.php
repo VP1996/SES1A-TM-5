@@ -3,15 +3,12 @@
 <html lang="en">
     
     <head>
-    <title>Login</title>
+    <title>DocBook</title>
    
     
     <link rel="stylesheet" type="text/css" href= "./css/style.css" />
     <script src="./js/Slideshow.js" type="text/javascript"></script>
     <body></body>
-
-    <div id="page-container">
-        <div id="content-wrap">
     
         <div class="headerMenu">
             <div class="container2">
@@ -29,8 +26,7 @@
                         <br>
                         <br>
                         <br>
-                        <a href="login.php"><button class="loginbutton">Login</button></a>
-                        <a href="register.php"><button class="loginbutton">Register</button></a>
+                        
                     </div>  
                 </div>
             </div>
@@ -51,9 +47,8 @@
     <br>
     <div class = "loginpage"></div>
 
-        <form action="login.php"  id ="Login" class="login-input-group">  <!-- enter php file here-->
-            <?php include('errors.php'); ?>
-            <br>
+        <form method="post" action="login.php">
+  	       
             <br>
             <br>         
        <div><input type ="Email" name="EmailAddress" class="input-field" Placeholder="    Email Address" required></div>
@@ -74,17 +69,12 @@
     <br>
     <br>
     <br>
-    <div class="container2-box" style="padding-left: 100px; padding-right: 100px;">
-        <input type="submit" class= "submit-btn" name="Rsubmit" value="Login"placeholder="Login">
-    </div>
+        <input  type="submit" class= "submit-btn" name="Log_sub" value="Login"placeholder="Login"input>
     <br>
-        <p1 style="font-size: 14px;font-family: sans-serif; float:right"> Forgot your Password?  Click <a href="Forgotpw.php"><b>HERE</b></a>!</p1>
    
     
         </form>
     </div>
-</div>
-</div>
 </div>
 
 </div>

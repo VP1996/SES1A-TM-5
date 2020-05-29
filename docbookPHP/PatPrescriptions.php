@@ -56,58 +56,23 @@
                   <h1 >Prescriptions</h1>
                   <br>
                   <table id="general">
-                      <tr>
-                        <th>Doctor</th>
-                        <th>Prescription</th>
-                        <th>Date issued</th>
-                        <th>PDF</th>
-                      </tr>
-                      <tr>
-                        <td>
-                          <div class="container1">
-                            <div style="flex-basis:40%">
-                              <img src="./img/female.png" alt="avatar" style=" border-radius:50%; width:35px; border-style:solid; border-width:thin"> 
-                            </div>
-                            <div style="flex-basis:60%">
-                              <p style="text-align:left; color: #000; font-size: 20px;">Rachekl Done</p> 
-                            </div>
-                          </div>
-                        </td>
-                        <td><p style="text-align:left; color: #000; font-size: 20px;">Panadol</p></td>
-                        <td>12/3/2020</td>
-                        <td><a href="#"><img style="width:50px" src="./img/pdf.png"></a></td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <div class="container1">
-                            <div style="flex-basis:40%">
-                              <img src="./img/male.png" alt="avatar" style=" border-radius:50%; width:35px; border-style:solid; border-width:thin"> 
-                            </div>
-                            <div style="flex-basis:60%">
-                              <p style="text-align:left; color: #000; font-size: 20px;">Jeff Boses</p> 
-                            </div>
-                          </div>  
-                        </td>
-                        <td><p style="text-align:left; color: #000; font-size: 20px;">Aspirin</p></td>
-                        <td>14/4/2020</td>
-                        <td><a href="#"><img style="width:50px" src="./img/pdf.png"></a></td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <div class="container1">
-                            <div style="flex-basis:40%">
-                              <img src="./img/male.png" alt="avatar" style=" border-radius:50%; width:35px; border-style:solid; border-width:thin"> 
-                            </div>
-                            <div style="flex-basis:60%">
-                              <p style="text-align:left; color: #000; font-size: 20px;">Bob Nan</p> 
-                            </div>
-                          </div>
-                        </td>
-                        <td><p style="text-align:left; color: #000; font-size: 20px;">Buscopan</p></td>
-                        <td>4/5/2020</td>
-                        <td><a href="#"><img style="width:50px" src="./img/pdf.png"></a></td>
-                      </tr>
-                    </table>
+                    <tr>
+                      <th>Doctor</th>
+                      <th>PDF</th>
+                    </tr>
+                    <tr>
+                      <td><?php printf("%s %s ", $AvailDocName1["DFName"], $AvailDocName1["DLName"]); ?> </td>
+                      <td><a href="#"><img style="width:50px" src="./img/pdf.png"></a></td>
+                    </tr>
+                    <tr>
+                      <td><?php printf("%s %s ", $AvailDocName2["DFName"], $AvailDocName2["DLName"]); ?> </td>
+                      <td><a href="#"><img style="width:50px" src="./img/pdf.png"></a></td>
+                    </tr>
+                    <tr>
+                      <td><?php printf("%s %s ", $AvailDocName3["DFName"], $AvailDocName3["DLName"]); ?> </td>
+                      <td><a href="#"><img style="width:50px" src="./img/pdf.png"></a></td>
+                    </tr>
+                  </table>
                 </div>
             </div>
             <div class="box2">

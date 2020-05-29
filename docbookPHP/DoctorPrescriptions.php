@@ -59,58 +59,27 @@
                   <h1 >Prescriptions</h1>
                   <br>
                   <table id="general">
-                      <tr>
-                        <th>Patient</th>
-                        <th>Prescription</th>
-                        <th>Date</th>
-                        <th>PDF</th>
-                      </tr>
-                      <tr>
-                        <td>
-                          <div class="container1">
-                            <div style="flex-basis:40%">
-                              <img src="./img/female.png" alt="avatar" style=" border-radius:50%; width:35px; border-style:solid; border-width:thin"> 
-                            </div>
-                            <div style="flex-basis:60%">
-                              <p style="text-align:left; color: #000; font-size: 20px;">Anna Wang</p> 
-                            </div>
-                          </div>
-                        </td>
-                        <td><p style="text-align:left; color: #000; font-size: 20px;">Panadol</p></td>
-                        <td>11/3/2020</td>
-                        <td><a href="#"><img style="width:50px" src="./img/pdf.png"></a></td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <div class="container1">
-                            <div style="flex-basis:40%">
-                              <img src="./img/male.png" alt="avatar" style=" border-radius:50%; width:35px; border-style:solid; border-width:thin"> 
-                            </div>
-                            <div style="flex-basis:60%">
-                              <p style="text-align:left; color: #000; font-size: 20px;">Dominic Walter</p> 
-                            </div>
-                          </div>  
-                        </td>
-                        <td><p style="text-align:left; color: #000; font-size: 20px;">Aspirin</p></td>
-                        <td>17/3/2020</td>
-                        <td><a href="#"><img style="width:50px" src="./img/pdf.png"></a></td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <div class="container1">
-                            <div style="flex-basis:40%">
-                              <img src="./img/female.png" alt="avatar" style=" border-radius:50%; width:35px; border-style:solid; border-width:thin"> 
-                            </div>
-                            <div style="flex-basis:60%">
-                              <p style="text-align:left; color: #000; font-size: 20px;">Nancy Cooper</p> 
-                            </div>
-                          </div>
-                        </td>
-                        <td><p style="text-align:left; color: #000; font-size: 20px;">Buscopan</p></td>
-                        <td>3/4/2020</td>
-                        <td><a href="#"><img style="width:50px" src="./img/pdf.png"></a></td>
-                      </tr>
-                    </table>
+                    <tr>
+                      <th>Patient</th>
+                      <th>Prescription</th>
+                      <th>PDF</th>
+                    </tr>
+                    <tr>
+                      <td><?php printf("%s %s ", $ForBooking1["PatientFname"] , $ForBooking1["PatientLname"]);?> </td>
+                      <td>Panadol</td>
+                      <td><a href="#"><img style="width:50px" src="./img/pdf.png"></a></td>
+                    </tr>
+                    <tr>
+                      <td><?php printf("%s %s ", $ForBooking2["PatientFname"] , $ForBooking2["PatientLname"]);?> </td>
+                      <td>Aspirin</td>
+                      <td><a href="#"><img style="width:50px" src="./img/pdf.png"></a></td>
+                    </tr>
+                    <tr>
+                      <td><?php printf("%s %s ", $ForBooking3["PatientFname"] , $ForBooking3["PatientLname"]);?> </td>
+                      <td>Buscopan</td>
+                      <td><a href="#"><img style="width:50px" src="./img/pdf.png"></a></td>
+                    </tr>
+                  </table>
                 </div>
             </div>
             <div class="box2">
