@@ -50,8 +50,8 @@
            
         </div>
 
-        <div class="container1" style="flex-direction: row; padding: 10px;  ">
-            <div style="flex-basis: 25%; background-color: rgba(255, 255, 255, 0.774); padding: 1%; overflow: auto;">
+        <div class="container1" style="flex-direction: row; padding: 1%; margin-left:4%; margin-top:3%  ">
+            <div style="flex-basis: 25%; background-color: rgba(255, 255, 255, 0.9); padding: 1%; overflow: auto;">
 
             
             <div class="calendar_header">
@@ -64,7 +64,7 @@
                         
                         <div class="cl_title;">Today</div>
                         <div class="cl_copy">28th  May  2020</div>
-                        <a href="#"> <img src="./img/adddate.png" alt="add" style="float:right;border-radius:50%; width:40px; margin-top:5% "></a>
+                        <a href="availDoc.php"> <img src="./img/adddate.png" alt="add" style="float:right;border-radius:50%; width:40px; margin-top:5% "></a>
                         </div>
                           </div>
 
@@ -85,7 +85,7 @@
             </div>
             <div style="flex-basis: 1%;">
             </div>
-            <div style="flex-basis: 74%; background-color: rgba(255, 255, 255, 0.774); padding: 1%;">
+            <div style="flex-basis: 75%; background-color: rgba(255, 255, 255, 0.774); padding: 1%; margin-right:4%">
                 <!-- Slideshow container -->
                 <div class="slideshow-container">
 

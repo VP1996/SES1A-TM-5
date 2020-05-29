@@ -40,7 +40,7 @@ h2{
       font-weight:bold;
     }
     .container {
-      margin-top: 5%;
+      margin-top:4%;
       width: 40%;
      background-color: #DCDCDC;
       padding-right:10%;
@@ -50,14 +50,14 @@ h2{
       background-color: #778899;
     }
     .display-chat{
-      height:300px;
+      height:500px;
       background-color:#F8F8FF;
       margin-bottom:4%;
       overflow:auto;
       padding:15px;
     }
     .message{
-      background-color: 	#000000;
+      background-color: #007bff;
       color: white;
       border-radius: 5px;
       padding: 5px;
@@ -123,7 +123,7 @@ h2{
 
 <div class="container">
   <center><h2>Welcome to the Chat <span style="color:#000000; font-size:32px"><?php echo $_SESSION['Username']; ?> !</span></h2>
-	<label>Join the chat</label>
+	<label>Chat here!</label>
   </center></br>
   <div class="display-chat">
 <?php

@@ -43,7 +43,7 @@
     </div> 
    </head> 
 
-   <div class="box1" style=" background-color: rgba(255, 255, 255, 0.808); padding:20px; text-align: left; margin: 13px; width: 1550px; margin-left:auto; margin-right:auto; border-radius: 8px;">
+   <div class="box1" style=" background-color: rgba(255, 255, 255, 0.808); padding:20px; text-align: left; margin: 13px; width: 1550px; margin-left:auto; margin-right:auto; border-radius: 8px; ">
                 
              
    <h1>Contact Us</h1>
@@ -57,12 +57,12 @@
                       <label for="fname" >Email Address</label>
                       <input type="text" id="fname" name="EmailAddress" placeholder="Your Email Address">
                       <label for="subject">Comments</label>
-                      <textarea id="subject" name="Comments"  style="height:30px; width:1470px"></textarea>
+                      <textarea id="subject" name="Comments"  style="height:100px; width:1470px"></textarea>
                       <input type="submit" value="Submit" class='btn'>
                     </form>
                   </div>
 
-                    <div class="mapouter"><div class="gmap_canvas" style="display:inline-block; "><iframe width="1000" height="480" id="gmap_canvas" src="https://maps.google.com/maps?q=Sydney&t=&z=9&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="" marginheight="0" marginwidth="3"></iframe><a href="https://periodic-table-of-elements.net"></a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1000px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1000px;}</style></div>
+                    <center><div class="mapouter"><div class="gmap_canvas" style="display:inline-block; "><iframe width="1000" height="480" id="gmap_canvas" src="https://maps.google.com/maps?q=Sydney&t=&z=9&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="" marginheight="0" marginwidth="3"></iframe><a href="https://periodic-table-of-elements.net"></a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1000px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1000px;}</style></div> </center>
                         </div>
                     </div>
                  </div>

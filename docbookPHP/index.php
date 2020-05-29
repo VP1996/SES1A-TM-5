@@ -60,6 +60,7 @@
             <a href="about.php">About</a>
             <a href="contactUS.php">Contact</a>
         </div>
+        </div> 
         <!--
         <div >
             <p style="text-align: center;> <b style="font-size: large;">Contact Us</b> </p>

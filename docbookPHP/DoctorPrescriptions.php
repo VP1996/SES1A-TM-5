@@ -53,7 +53,7 @@
             <br>
             
         </div>
-        <div class="container1" style="height: 800px">
+        <div class="container1" style="height: 800px; ">
             <div class="box1" style="flex: 3; background-color: rgba(255, 255, 255, 0.9); padding: 20px;" >
                 <div style="overflow: auto" >
                   <h1 >Prescriptions</h1>

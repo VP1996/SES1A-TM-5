@@ -43,11 +43,10 @@
             <a href="DoctorAppointments.php">Bookings</a> 
             <a href="DoctorPrescriptions.php">Prescriptions</a> 
             <a href="chatpage.php">Chat</a> 
-            
          </div> 
    
    
-         <div class="form" style="height:1000px; width:600px; padding:42px">
+         <div class="form" style="height:900px; width:600px; padding:22px">
 
             <img style="margin-left:33%; margin-bottom:20px;"   src="./img/download.png" aria-placeholder="Tim Henson">
             <h1 style="font-size:28px;margin-bottom:20px;" >Update Your Profile</h1>
@@ -108,9 +107,9 @@
         </div>
     </div>
 </div>
+</div>
 
 
-   
 <div class="w3hubs-footer">
    	  
    	  <div class="w3hubs-icon">

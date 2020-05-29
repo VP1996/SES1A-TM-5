@@ -2,6 +2,8 @@
 <!DOCTYPE html>
 <html>
     <header>
+   
+
         <title> Prescriptions </title>
        
     <link rel="stylesheet" type="text/css" href= "./css/style.css" />
@@ -9,6 +11,10 @@
     <link rel="stylesheet" type="text/css" href="./css/footer.css">
     
     </header>
+
+    <div id="page-container">
+        <div id="content-wrap">
+
     <div class="headerMenu">
         <div class="container2">
             <div class="container2-box" style="flex-basis: 50%;">

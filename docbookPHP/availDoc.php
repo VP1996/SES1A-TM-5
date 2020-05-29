@@ -3,6 +3,8 @@
 <html lang="en">
     
     <head>
+    <div id="page-container">
+        <div id="content-wrap">
     <title>Doctors</title>
    
      <!-- CSS here-->
@@ -90,6 +92,8 @@
             <div class="box3">
 
             </div>
+        </div>
+        </div>
         </div>
         <br>
         <div class="w3hubs-footer">

@@ -46,7 +46,7 @@
          </div> 
    
    
-         <div class="form" style="height:1000px; width:600px; padding:42px">
+         <div class="form" style="height:900px; width:600px; padding:22px">
 
             <img style="margin-left:33%; margin-bottom:20px;"   src="./img/download.png" aria-placeholder="Tim Henson">
             <h1 style="font-size:28px;margin-bottom:20px;" >Update Your Profile</h1>

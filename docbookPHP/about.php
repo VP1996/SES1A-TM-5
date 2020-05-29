@@ -12,7 +12,7 @@
     <script src="./js/Slideshow.js" type="text/javascript"></script>
     <body></body>
 
-    <div id="page-container"  style="background-color: rgba(255,255,255,0.9);">
+    <div id="page-container">
         <div id="content-wrap">
     
             <div class="headerMenu">
@@ -43,29 +43,29 @@
                 <a href="about.php">About</a>
                 <a href="contactUS.php">Contact</a>
             </div>
+            </div> 
             
             
-            <div class="container1">
-                <div class="box1" style="flex: 3; padding: 10px;" >
+            <div class="box1" style=" background-color: rgba(255, 255, 255, 0.808); padding:20px; text-align: left; margin: 13px; width: 1550px; margin-left:auto; margin-right:auto; border-radius: 8px;">
                     <h1 style="text-align: left">Frequently Asked Questions</h1>
                     <br>
-                    <h3 style="text-align: left">What is docbook?</h3>
+                    <h3 style="text-align: left">What is DocBook?</h3>
                     <p class="normal" style="font-size: 20px; text-align: justify;">
-                    Docbook is an online service that provides patients with access to doctors via online appointments. 
-                    We provide an online system for you to see a doctor via chat at a time that suits you throung your pc or mobile devices.
+                    DocBook is an online service that provides patients with access to doctors via online appointments. 
+                    We provide an online system for you to see a doctor via chat at a time that suits you through your PC or mobile devices.
                     With our services, GP will be able to deliver the care in most efficient and fastest way.
                     <br>
-                    Our aim is towards time-poor patient and those who are not able to access regular health services.
+                    Our aim is to provide healthcare towards patient who do not have much time and those who are not able to access regular health services.
                     </p>
                     <br>
                     <h3 style="text-align: left">How do I book?</h3>
                     <p class="normal" style="font-size: 20px; text-align: justify;">
                     Simply visit our website and register an account. If you are already registered, please log-in to our website. <br>
                     After you have successfully logged in, please follow each steps below for booking.<br>
-                    1) click the "Doctor" button on the navigation bar.<br>
-                    2) choose the doctor on the available list and click the "appointment" button of the preferred doctor.<br>
-                    3) fill the booking form<br>
-                    4) submit<br>
+                    1) Click the "Doctor" button on the navigation bar.<br>
+                    2) Choose the doctor on the available list and click the "appointment" button of the preferred doctor.<br>
+                    3) Fill the booking form<br>
+                    4) Submit<br>
                     And you are ready for the appointment!
                     </p>
                     <br>
@@ -73,15 +73,15 @@
                     <p class="normal" style="font-size: 20px; text-align: justify;">
                     The main benefit is the convenience of the patients. 
                     In most cases, transportation could be troublesome if the patient is living alone or there is no easy trasportation.
-                    Using the docbook will not cause any problem thus you can access the health service through the internet.
+                    Using DocBook will not cause any problem, and thus you can access health services through the internet.
                     This is also very useful for patients who do not have enough time for regular health services. 
-                    Most of the consultations take only a few minutes so using docbook is very efficient.
-                     The prescriptions will be available within the appointment day so it is much more easier using the docbook.
+                    Most of the consultations take only a few minutes so using DocBook is very efficient.
+                     The prescriptions will be available within the appointment day so it is much more easier using DocBook.
                     </p>
                     <br>
                     <h3 style="text-align: left">What if the doctor is not available?</h3>
                     <p class="normal" style="font-size: 20px; text-align: justify;">
-                    If the doctor is temporarily unavailable for any reason, they will let you know how long they will be. 
+                    If the doctor is temporarily unavailable for any reason, the doctor will let you know via the booking system. 
                     You can then choose to wait or cancel the appointment and book another appointment. 
                     Your consultation does not start until both parties have joined the session.
                     <br>

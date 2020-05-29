@@ -50,7 +50,7 @@
            
         </div>
 
-        <div class="container1" style="flex-direction: row; padding: 1%; margin-left:4%;  ">
+        <div class="container1" style="flex-direction: row; padding: 1%; margin-left:4%; margin-top:3%  ">
             <div style="flex-basis: 25%; background-color: rgba(255, 255, 255, 0.9); padding: 1%; overflow: auto;">
             
 
@@ -66,7 +66,6 @@
                         
                         <div class="cl_title;">Today</div>
                         <div class="cl_copy">26th  May  2020</div>
-                        <a href="#"> <img src="./img/adddate.png" alt="add" style="float:right;border-radius:50%; width:40px; margin-top:5% "></a>
                         </div>
                           </div>
                         
