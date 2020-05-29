@@ -7,7 +7,7 @@
    
      <!-- CSS here-->
 
-    <link rel="stylesheet" type="text/css" href= "./css/style1.css" />
+    <link rel="stylesheet" type="text/css" href= "./css/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet">  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -52,8 +52,8 @@
         </div>
         <br>
         
-        <div class="container1">
-            <div class="box1" style="flex: 3; background-color: rgba(255, 255, 255, 0.9); padding: 10px; border-radius: 8px;" >
+        <div class="container1" style="height: 800px">
+            <div class="box1" style="flex: 3; background-color: rgba(255, 255, 255, 0.9); padding: 10px;" >
                 <h1> Available Doctors</h1>
                 <br>
                 <table id="general">
@@ -91,6 +91,7 @@
 
             </div>
         </div>
+        <br>
         <div class="w3hubs-footer">
    	  
    	  <div class="w3hubs-icon">

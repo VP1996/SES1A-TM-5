@@ -3,7 +3,7 @@
 <html>
     <header>
         <title> DocBook </title>
-        <link rel="stylesheet" type="text/css" href= "./css/style1.css">
+        <link rel="stylesheet" type="text/css" href= "./css/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="./css/footer.css"> 
         
@@ -43,32 +43,34 @@
             <br>
             
         </div>
-        <div class="container1">
-            <div class="box1" style="flex: 3; background-color: rgba(108, 119, 128, 0.822); padding: 20px; border-radius: 8px;" >
-                <h1 >Upcoming appointments</h1>
-                <br>
-                <table id="general">
-                    <tr>
-                      <th>Patient</th>
-                      <th>Condion of illness</th>
-                      <th>Time</th>
-                    </tr>
-                    <tr>
-                      <td><?php printf("%s %s ", $ForBooking1["PatientFname"] , $ForBooking1["PatientLname"]);?> </td>
-                      <td><?php printf(" %s ", $ForBooking1["AConditions"]);?></td>
-                      <td><?php printf(" %s ", $ForBooking1["ATime"]);?> </td>
-                    </tr>
-                    <tr>
-                      <td><?php printf("%s %s ", $ForBooking2["PatientFname"] , $ForBooking2["PatientLname"]);?> </td>
-                      <td><?php printf(" %s ", $ForBooking2["AConditions"]);?></td>
-                      <td><?php printf(" %s ", $ForBooking2["ATime"]);?> </td>
-                    </tr>
-                    <tr>
-                      <td><?php printf("%s %s ", $ForBooking3["PatientFname"] , $ForBooking3["PatientLname"]);?> </td>
-                      <td><?php printf(" %s ", $ForBooking3["AConditions"]);?></td>
-                      <td><?php printf(" %s ", $ForBooking3["ATime"]);?> </td>
-                    </tr>
-                  </table>
+        <div class="container1" style="height: 800px;">
+            <div class="box1" style="flex: 3; background-color: rgba(255, 255, 255, 0.9); padding: 20px;" >
+                <div style="overflow: auto;">
+                  <h1 >Upcoming appointments</h1>
+                  <br>
+                  <table id="general">
+                      <tr>
+                        <th>Patient</th>
+                        <th>Condion of illness</th>
+                        <th>Time</th>
+                      </tr>
+                      <tr>
+                        <td><?php printf("%s %s ", $ForBooking1["PatientFname"] , $ForBooking1["PatientLname"]);?> </td>
+                        <td><?php printf(" %s ", $ForBooking1["AConditions"]);?></td>
+                        <td><?php printf(" %s ", $ForBooking1["ATime"]);?> </td>
+                      </tr>
+                      <tr>
+                        <td><?php printf("%s %s ", $ForBooking2["PatientFname"] , $ForBooking2["PatientLname"]);?> </td>
+                        <td><?php printf(" %s ", $ForBooking2["AConditions"]);?></td>
+                        <td><?php printf(" %s ", $ForBooking2["ATime"]);?> </td>
+                      </tr>
+                      <tr>
+                        <td><?php printf("%s %s ", $ForBooking3["PatientFname"] , $ForBooking3["PatientLname"]);?> </td>
+                        <td><?php printf(" %s ", $ForBooking3["AConditions"]);?></td>
+                        <td><?php printf(" %s ", $ForBooking3["ATime"]);?> </td>
+                      </tr>
+                    </table>
+                </div>
             </div>
             
             <div class="box2">
