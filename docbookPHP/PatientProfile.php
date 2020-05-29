@@ -35,13 +35,14 @@
                 </div>
             </div>
         </div>
-
+        <div class="navbar" >
         <a href="PatHomePage.php">Home</a> 
 			<a href="PatientProfile.php">Profile</a> 
 			<a href="availDoc.php">Doctors</a> 
 			<a href="PatPrescriptions.php">Prescriptions</a> 
 			<a href="chatpage.php">Chat</a> 
 		
+            </div> 
          </div> 
    
    

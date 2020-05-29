@@ -40,7 +40,7 @@
 			<a href="PatPrescriptions.php">Prescriptions</a> 
 			<a href="chatpage.php">Chat</a> 
 		
-            
+            </div>    
             
         </div>
 
