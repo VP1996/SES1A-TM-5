@@ -57,6 +57,76 @@ justify-content: left;
 }
 
 
+.container4 div{
+  border:1px black solid;
+  padding:10px;
+  margin:20px;
+  
+  }
+  
+  
+  .box1 {
+  flex: 3;
+  order: 2;
+  color: rgba(2, 2, 2, 0.74);
+  font-size: 24px;
+  text-align: center;
+  
+  }
+  
+  .box2 {
+  flex: 1;
+  order: 1;
+  }
+  
+  .box3 {
+  flex: 1;
+  order: 3;
+  }
+  
+  /*container 2 boxes*/
+  .container2-box{
+  flex-basis: 27%;  
+  }
+  
+  /*container 3 boxes*/
+  
+  .container3-box1 {
+  flex: 1;
+  order: 1;
+  }
+  
+  .container3-box2 {
+  flex: 1;
+  order: 2;
+  }
+  
+  .container3-box3 {
+  flex: 1;
+  order: 3;
+  }
+  
+  /*container 4 boxes*/
+  
+  .container4-box1 {
+  flex: 1;
+  order: 1;
+  }
+  
+  .container4-box2 {
+  flex: 1;
+  order: 2;
+  }
+  
+  .container4-box3 {
+  flex: 1;
+  order: 3;
+  }
+  
+  .container4-box {
+    flex-basis: 50%;
+  }  
+
 /* chat design */
 
 .containerchat{
@@ -293,12 +363,17 @@ font-size: 14px;
   border-radius: 20px;
 }
 
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
-
+  flex: 4;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
   }
   
@@ -309,18 +384,18 @@ font-size: 14px;
   
   /* Next & previous buttons */
   .prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
   }
   
   /* Position the "next button" to the right */
@@ -377,96 +452,16 @@ font-size: 14px;
   animation-name: fade;
   animation-duration: 1.5s;
   }
+
   
-
-
-
-/*containers div border 
-.container1 div, .container2 div{
-border:1px #000000 solid;
-padding:10px;
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
 }
 
-.container4{
-display: flex;
-justify-content: left;
-
-}
-/*
-.container1 div, .container2, .container3, .container4 div{
-border:1px #000000 solid;
-padding:10px;
-}
-*/
-
-.container4 div{
-border:1px black solid;
-padding:10px;
-margin:20px;
-
-}
-
-
-.box1 {
-flex: 3;
-order: 2;
-color: rgba(2, 2, 2, 0.74);
-font-size: 24px;
-text-align: center;
-
-}
-
-.box2 {
-flex: 1;
-order: 1;
-}
-
-.box3 {
-flex: 1;
-order: 3;
-}
-
-/*container 2 boxes*/
-.container2-box{
-flex-basis: 27%;  
-}
-
-/*container 3 boxes*/
-
-.container3-box1 {
-flex: 1;
-order: 1;
-}
-
-.container3-box2 {
-flex: 1;
-order: 2;
-}
-
-.container3-box3 {
-flex: 1;
-order: 3;
-}
-
-/*container 4 boxes*/
-
-.container4-box1 {
-flex: 1;
-order: 1;
-}
-
-.container4-box2 {
-flex: 1;
-order: 2;
-}
-
-.container4-box3 {
-flex: 1;
-order: 3;
-}
-
-.container4-box {
-  flex-basis: 50%;
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
 }
 
 /* input boxes */

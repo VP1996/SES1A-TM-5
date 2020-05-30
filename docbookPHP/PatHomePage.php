@@ -94,35 +94,27 @@
                     <div class="mySlides fade" style="display: block;">
                         <div class="numbertext">1 / 3</div>
                         <img src="./img/5doctors.jpg" style="width:100%">
-                        <div class="text">Caption Text</div>
+                        <div class="text">Convenience</div>
                     </div>
         
                     <div class="mySlides fade">
                         <div class="numbertext">2 / 3</div>
-                        <img src="./img/coffin1.jpeg" style="width:100%">
-                        <div class="text">Caption Two</div>
+                        <img src="./img/doctors1.jpg" style="width:100%">
+                        <div class="text">Reliabilty</div>
                     </div>
         
                     <div class="mySlides fade">
                         <div class="numbertext">3 / 3</div>
-                        <img src="./img/coffin2.jpg" style="width:100%">
-                        <div class="text">Caption Three</div>
+                        <img src="./img/doctors2.jpg" style="width:100%">
+                        <div class="text">Safety</div>
                     </div>
         
                     <!-- Next and previous buttons -->
                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                     <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                    </div>
-                    <br>
-        
-                    <!-- The dots/circles -->
-                    <div style="text-align:center">
-                    <span class="dot" onclick="currentSlide(1)"></span>
-                    <span class="dot" onclick="currentSlide(2)"></span>
-                    <span class="dot" onclick="currentSlide(3)"></span>
-                    <br>
-                    <br>
                 </div>
+                <br>
+        
             
                 <div class="container2">
                     <div class="container2-box" style="height: 100%;"><img src="./img/appointment2.png" style="vertical-align: middle; padding-left: 50px; padding-right: 50px;"/>
