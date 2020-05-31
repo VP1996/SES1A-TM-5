@@ -31,8 +31,16 @@ left: 50%;
 transform: translate(-50%, -50%)
 }
 
+.image-upload > input
+{
+    display: none;
+}
 
-
+.image-upload img
+{
+    width: 50px;
+    cursor: pointer;
+}
 
 /* flexbox */
 

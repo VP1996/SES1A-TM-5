@@ -68,15 +68,15 @@
                     </tr>
                     <tr>
                       <td><?php printf("%s %s ", $AvailDocName1["DFName"], $AvailDocName1["DLName"]); ?> </td>
-                      <td><a href="#"><img style="width:50px" src="./img/pdf.png"></a></td>
+                      <td><a href="./Prescription.pdf"><img style="width:50px" src="./img/pdf.png"></a></td>
                     </tr>
                     <tr>
                       <td><?php printf("%s %s ", $AvailDocName2["DFName"], $AvailDocName2["DLName"]); ?> </td>
-                      <td><a href="#"><img style="width:50px" src="./img/pdf.png"></a></td>
+                      <td><a href="./Prescription.pdf"><img style="width:50px" src="./img/pdf.png"></a></td>
                     </tr>
                     <tr>
                       <td><?php printf("%s %s ", $AvailDocName3["DFName"], $AvailDocName3["DLName"]); ?> </td>
-                      <td><a href="#"><img style="width:50px" src="./img/pdf.png"></a></td>
+                      <td><a href="./Prescription.pdf"><img style="width:50px" src="./img/pdf.png"></a></td>
                     </tr>
                   </table>
                 </div>

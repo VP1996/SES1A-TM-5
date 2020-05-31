@@ -7,6 +7,7 @@
         <link rel="stylesheet" type="text/css" href="./css/footer.css">
         <link rel="stylesheet" type="text/css" href= "./css/docleftbar.css" />
         
+   
         
     </header>
 
@@ -67,17 +68,22 @@
                     <tr>
                       <td><?php printf("%s %s ", $ForBooking1["PatientFname"] , $ForBooking1["PatientLname"]);?> </td>
                       <td>Panadol</td>
-                      <td><a href="#"><img style="width:50px" src="./img/pdf.png"></a></td>
-                    </tr>
+                      <td> <label for="file-input">
+                           <img class="image-upload" style="width:50px; cursor:pointer" src="./img/pdf.png"/>
+                           </label> Upload<input style="display:none;" id="file-input" type="file" /></div></a></td>
                     <tr>
                       <td><?php printf("%s %s ", $ForBooking2["PatientFname"] , $ForBooking2["PatientLname"]);?> </td>
                       <td>Aspirin</td>
-                      <td><a href="#"><img style="width:50px" src="./img/pdf.png"></a></td>
+                      <td> <label for="file-input">
+                           <img class="image-upload" style="width:50px; cursor:pointer" src="./img/pdf.png"/>
+                           </label> Upload<input style="display:none;" id="file-input" type="file"/></div> </a></td>
                     </tr>
                     <tr>
                       <td><?php printf("%s %s ", $ForBooking3["PatientFname"] , $ForBooking3["PatientLname"]);?> </td>
                       <td>Buscopan</td>
-                      <td><a href="#"><img style="width:50px" src="./img/pdf.png"></a></td>
+                      <td> <label for="file-input">
+                           <img class="image-upload" style="width:50px; cursor:pointer" src="./img/pdf.png"/>
+                           </label> Upload<input style="display:none;" id="file-input" type="file" /></div></a></td>
                     </tr>
                   </table>
                 </div>
