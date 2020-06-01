@@ -11,6 +11,10 @@
         <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet">  
         <link rel="stylesheet" type="text/css" href="./css/footer.css"> 
     </header>
+
+    <div id="page-container">
+        <div id="content-wrap">
+
     <div class="headerMenu">
         <div class="container2">
             <div class="container2-box" style="flex-basis: 50%;">
@@ -63,7 +67,7 @@
                         <div class="cl_plan">
                         
                         <div class="cl_title;">Today</div>
-                        <div class="cl_copy">28th  May  2020</div>
+                        <div class="cl_copy">2 June 2020</div>
                         <a href="availDoc.php"> <img src="./img/adddate.png" alt="add" style="float:right;border-radius:50%; width:40px; margin-top:5% "></a>
                         </div>
                           </div>
@@ -142,6 +146,8 @@
 
             </div>
         </div>
+        </div>
+     
 
         <br>
         <div class="w3hubs-footer">

@@ -41,7 +41,7 @@
     
       <!--<div class="box1" style="flex: 1; background-color: rgba(255, 255, 255, 0.808); text-align: middle; margin: 13px">**/
     <br> -->
-    <div class="form">
+    <div class="form" style='padding:20px'>
 
     <h1 style="font-size:28px" >Login</h1>
     <br>
@@ -71,6 +71,7 @@
     <br>
         <input  type="submit" class= "submit-btn" name="Log_sub" value="Login"placeholder="Login"input>
     <br>
+    <p1 style="font-size: 14px;font-family: sans-serif; float:right"> Forgot your Password?  Click <a href="Forgotpw.php"><b>HERE</b></a>!</p1>
    
     
         </form>

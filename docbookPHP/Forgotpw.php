@@ -45,7 +45,7 @@
         
         <!--<div class="box1" style="flex: 1; background-color: rgba(255, 255, 255, 0.808); text-align: middle; margin: 13px">**/
         <br> -->
-        <div class="form">
+        <div class="form" style="padding:20px">
 
         <h1 style="font-size:28px" >Reset your password</h1>
         <br>

@@ -1,5 +1,9 @@
 <?php 
-	include "server.php";
+  include "server.php";
+  
+
+   $url=$_SERVER['REQUEST_URI'];
+   header("Refresh: 25 URL=$url");
 	
 	
 	if(isset($_SESSION['EmailAddress']))

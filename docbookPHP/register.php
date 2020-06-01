@@ -43,7 +43,7 @@
         </div>
     </div>  
 
-        <div class="form" style="height:560px">
+        <div class="form" style="height:600px; padding:20px">
 
             <h1 style="font-size:28px" >Register</h1>
 

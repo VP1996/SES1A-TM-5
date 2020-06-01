@@ -75,8 +75,8 @@
                       <td><a href="./Prescription.pdf"><img style="width:50px" src="./img/pdf.png"></a></td>
                     </tr>
                     <tr>
-                      <td><?php printf("%s %s ", $AvailDocName3["DFName"], $AvailDocName3["DLName"]); ?> </td>
-                      <td><a href="./Prescription.pdf"><img style="width:50px" src="./img/pdf.png"></a></td>
+                      <td></td>
+                      <td><a href="./Prescription.pdf"><img style="width:50px" src=></a></td>
                     </tr>
                   </table>
                 </div>

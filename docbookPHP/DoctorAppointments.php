@@ -61,7 +61,7 @@
                   <table id="general">
                       <tr>
                         <th>Patient</th>
-                        <th>Condion of illness</th>
+                        <th>Condition of illness</th>
                         <th>Time</th>
                       </tr>
                       <tr>
