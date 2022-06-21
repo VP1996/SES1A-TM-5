@@ -1,6 +1,8 @@
 # Software Engineering Studio 1A Autumn 2020 
 ## Team 5
 This repository contains files for the DocBook website. In order to use them, please see the setup procedure below. 
+## Documentation
+https://docs.google.com/document/d/1xLaQS_I2C-QSfMlhXqhTERPfPLtNylPGXF7r9qrNqn0/edit?usp=sharing
 ## Setup procedure
 For future development, we want to acquire the IP address, this way the website would be able to access just by typing our URL in the search bar of the browser. However, at this stage, we are using the local server on the computer to access and use the website.
 
